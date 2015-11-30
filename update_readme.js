@@ -4,6 +4,7 @@ import path      from 'path';
 import fetch     from 'node-fetch';
 import cheerio   from 'cheerio';
 import coroutine from 'co';
+import Mocha     from 'mocha';
 
 const HOST = 'https://leetcode.com';
 const OUTPUT = path.resolve(__dirname, 'README.md');
@@ -11,6 +12,16 @@ const OUTPUT = path.resolve(__dirname, 'README.md');
 function capitalize (str) {
   return str.charAt(0).toUpperCase() + str.substr(1)
 };
+
+function mochaTest (file) {
+  return new Promise((resolve, reject) => {
+    const mocha = new Mocha();
+    mocha.addFile(file);
+    mocha.run(result => {
+      resolve(result === 0);
+    });
+  });
+}
 
 coroutine(function * () {
   const categories = ['algorithms', 'database', 'shell'];
@@ -39,26 +50,33 @@ coroutine(function * () {
     return list;
   }, []);
 })
-.then(json => {
-  return json.map(({ no, category, title, uri, acceptance, difficulty }) => {
-    const file = uri.split('/')[2] + '.js';
+.then(problemList => {
+  return coroutine(function * () {
+    let table = [];
+    for (let i = 1; i < problemList.length; i++) {
+      const { no, category, title, uri, acceptance, difficulty } = problemList[i];
+      const file = uri.split('/')[2] + '.js';
 
-    // check the file is exist or not
-    let symbol = '✔';
-    try {
-      fs.statSync(path.resolve(__dirname, 'src', file));
-    } catch (e) {
-      symbol = '✘'; // file is not exist
+      // mocha test
+      let symbol = '✘';
+      try {
+        const result = yield mochaTest(path.resolve(__dirname, 'src', file));
+        if (result === true) symbol = '✓';
+      } catch (e) {
+        // file is not exist
+      }
+
+      // add to table
+      table.push(`| ${capitalize(category)} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | [${symbol}](src/${file}) |`);
     }
-
-    return `| ${capitalize(category)} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | [${symbol}](src/${file}) |`;
-  })
-  .join('\n');
+    return table.join('\n');
+  });
 })
 .then(leetcodeTable => {
   const markdown = `#LeetCode\n
 | Category | #     | Title | Difficulty | State |
-| :---     | :---: | :---  | :---       | :---: |${leetcodeTable}\n`;
+| :---     | :---: | :---  | :---       | :---: |
+${leetcodeTable}\n`;
 
   fs.writeFileSync(OUTPUT, markdown);
 })
