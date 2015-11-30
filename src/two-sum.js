@@ -18,7 +18,22 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
+  var map = {}; // key = {number}, value = {index}
 
+  for (var index = 0; index < nums.length; index++) {
+    var number = nums[index];
+
+    // check prevIndex is exist or not
+    var prevIndex = map[target - number];
+    if (typeof prevIndex === 'number') {
+      return [
+        prevIndex + 1,
+        index + 1
+      ];
+    }
+
+    map[number] = index;
+  }
 };
 
 // mocha testing
@@ -36,4 +51,13 @@ describe('Two Sum', function() {
     expect(output).to.deep.equal([1, 2]);
   });
 
+  it('nums = [3, 2, 4], target = 6', function () {
+    var input = {
+      nums: [3, 2, 4],
+      target: 6
+    };
+    var output = twoSum(input.nums, input.target);
+
+    expect(output).to.deep.equal([2, 3]);
+  });
 });

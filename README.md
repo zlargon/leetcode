@@ -2,7 +2,7 @@
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
-| Algorithms | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [✘](src/two-sum.js) |
+| Algorithms | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [✓](src/two-sum.js) |
 | Algorithms | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [✘](src/add-two-numbers.js) |
 | Algorithms | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [✘](src/longest-substring-without-repeating-characters.js) |
 | Algorithms | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [✘](src/median-of-two-sorted-arrays.js) |
