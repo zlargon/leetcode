@@ -21,7 +21,27 @@
  * @return {string}
  */
 var convert = function(s, numRows) {
+  var container = [];
+  for (var i = 0; i < numRows; i++) {
+    container[i] = '';
+  }
 
+  var row = 0;
+  var direction = -1;
+  for (var i = 0; i < s.length; i++) {
+    container[row] += s.charAt(i);
+
+    // decide the direction
+    if (numRows === 1) {
+      direction = 0;
+    } else if (row % (numRows - 1) === 0) {
+      direction *= -1;
+    }
+
+    row += direction;
+  }
+
+  return container.join('');
 };
 
 // mocha testing
@@ -39,4 +59,37 @@ describe('ZigZag Conversion', function() {
     expect(output).to.equal('PAHNAPLSIIGYIR');
   });
 
+  it('PAYPALISHIRING, rows = 4', function () {
+    var input = {
+      s: 'PAYPALISHIRING',
+      numRows: 4
+    };
+    var output = convert(input.s, input.numRows);
+
+    // P  I  N  => PIN
+    // A LS IG  => ALSIG
+    // YA HR    => YAHR
+    // P  I     => PI
+    expect(output).to.equal('PINALSIGYAHRPI');
+  });
+
+  it('Empty String, row = 1', function() {
+    var input = {
+      s: '',
+      numRows: 1
+    };
+    var output = convert(input.s, input.numRows);
+
+    expect(output).to.equal('');
+  });
+
+  it('AB, row = 1', function() {
+    var input = {
+      s: 'AB',
+      numRows: 1
+    };
+    var output = convert(input.s, input.numRows);
+
+    expect(output).to.equal('AB');
+  });
 });
