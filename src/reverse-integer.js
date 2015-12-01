@@ -13,7 +13,23 @@
  * @return {number}
  */
 var reverse = function(x) {
+  var MAX_INT_32 = Math.pow(2, 31) - 1;
 
+  var sign = x < 0 ? -1 : 1;
+  x *= sign;
+
+  var n = 0;
+  while (x > 0) {
+    n = n * 10 + (x % 10);
+    x = Math.floor(x / 10);
+
+    // check overflow
+    if (n < 0 || n > MAX_INT_32) {
+      return 0;
+    }
+  }
+
+  return n * sign;
 };
 
 // mocha testing
@@ -55,6 +71,13 @@ describe('Reverse Integer', function() {
   // default testing example
   it('reverse 1000000003 overflows', function () {
     var input = 1000000003;
+    var output = reverse(input);
+
+    expect(output).to.equal(0);
+  });
+
+  it('reverse 0', function () {
+    var input = 0;
     var output = reverse(input);
 
     expect(output).to.equal(0);

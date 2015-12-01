@@ -8,7 +8,7 @@
 | Algorithms | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [✘](src/median-of-two-sorted-arrays.js) |
 | Algorithms | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [✘](src/longest-palindromic-substring.js) |
 | Algorithms | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Easy | [✓](src/zigzag-conversion.js) |
-| Algorithms | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [✘](src/reverse-integer.js) |
+| Algorithms | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [✓](src/reverse-integer.js) |
 | Algorithms | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Easy | [✘](src/string-to-integer-atoi.js) |
 | Algorithms | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [✘](src/palindrome-number.js) |
 | Algorithms | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [✘](src/regular-expression-matching.js) |
