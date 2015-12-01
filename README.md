@@ -10,7 +10,7 @@
 | Algorithms | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Easy | [✓](src/zigzag-conversion.js) |
 | Algorithms | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [✓](src/reverse-integer.js) |
 | Algorithms | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Easy | [✓](src/string-to-integer-atoi.js) |
-| Algorithms | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [✘](src/palindrome-number.js) |
+| Algorithms | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [✓](src/palindrome-number.js) |
 | Algorithms | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [✘](src/regular-expression-matching.js) |
 | Algorithms | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [✘](src/container-with-most-water.js) |
 | Algorithms | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | Medium | [✘](src/integer-to-roman.js) |
