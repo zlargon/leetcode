@@ -26,7 +26,66 @@
  * @return {number}
  */
 var myAtoi = function(str) {
+  var INT_MAX = 2147483647;
+  var INT_MIN = -2147483648;
 
+  var state = {
+    removeWhiteSpace: true,
+    getSign: true
+  };
+
+  var sign = 1;
+  var num = 0;
+
+  for (var i = 0; i < str.length; i++) {
+    var c = str.charAt(i);
+
+    // remove whiteSpace
+    if (state.removeWhiteSpace) {
+      if (/\s/.test(c)) continue;
+      state.removeWhiteSpace = false;
+    }
+
+    // get sign
+    if (state.getSign) {
+      state.getSign = false;
+
+      if (c === '-') {
+        sign = -1;
+        continue;
+      }
+
+      if (c === '+') {
+        sign = 1;
+        continue;
+      }
+    }
+
+    // check character
+    if (/\d/.test(c) === false) {
+      break;
+    }
+
+    // add to num
+    num = num * 10 + c.charCodeAt(0) - 48;
+
+    // check overflow
+    if (num < 0) {
+      return 0;
+    }
+  }
+
+  // INT_MAX
+  if (sign === 1 && num > INT_MAX) {
+    return INT_MAX;
+  }
+
+  // INT_MIN
+  if (sign === -1 && num > INT_MIN * (-1)) {
+    return INT_MIN;
+  }
+
+  return sign * num;
 };
 
 // mocha testing
@@ -95,5 +154,26 @@ describe('String to Integer (atoi)', function() {
     var output = myAtoi(input);
 
     expect(output).to.equal(-2147483648);
+  });
+
+  it('Empty String', function () {
+    var input = '';
+    var output = myAtoi(input);
+
+    expect(output).to.equal(0);
+  });
+
+  it('+1', function () {
+    var input = '+1';
+    var output = myAtoi(input);
+
+    expect(output).to.equal(1);
+  });
+
+  it('+-2', function () {
+    var input = '+-2';
+    var output = myAtoi(input);
+
+    expect(output).to.equal(0);
   });
 });
