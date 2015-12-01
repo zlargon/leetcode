@@ -10,7 +10,41 @@
  * @return {string}
  */
 var longestCommonPrefix = function(strs) {
+  function getEachCharAt(strs, index) {
+    var result = null;
+    for (var i = 0; i < strs.length; i++) {
 
+      // get character at {index}
+      var char = strs[i].charAt(index);
+      if (char === '') {
+        return null;
+      }
+
+      // set first character as result
+      if (result === null) {
+        result = char;
+        continue;
+      }
+
+      // character is not match
+      if (result !== char) {
+        return null;
+      }
+    }
+    return result;
+  }
+
+  var prefix = '';
+  for (var i = 0; ; i++) {
+    var char = getEachCharAt(strs, i);
+    if (char === null) {
+      break;
+    }
+
+    prefix += char;
+  }
+
+  return prefix;
 };
 
 
