@@ -19,6 +19,35 @@
  */
 var countAndSay = function(n) {
 
+  function next(sequence) {
+    var newSequence = '';
+    var val = null;
+    var count = 0;
+
+    for (var i = 0; i < sequence.length; i++) {
+      var c = sequence.charAt(i);
+
+      if (c === val) {
+        count++;
+        continue;
+      }
+
+      if (val !== null) {
+        newSequence += count + val;
+      }
+
+      val = c;
+      count = 1;
+    }
+
+    return newSequence + count + val;
+  }
+
+  var sequence = '1';
+  for (var i = 1; i < n; i++) {
+    sequence = next(sequence);
+  }
+  return sequence;
 };
 
 

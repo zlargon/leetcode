@@ -39,7 +39,7 @@
 | Algorithms | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Medium | ✘ |
 | Algorithms | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Easy | [✓](src/valid-sudoku.js) |
 | Algorithms | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | ✘ |
-| Algorithms | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Easy | ✘ |
+| Algorithms | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Easy | [✓](src/count-and-say.js) |
 | Algorithms | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✘ |
 | Algorithms | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | ✘ |
 | Algorithms | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Hard | ✘ |
