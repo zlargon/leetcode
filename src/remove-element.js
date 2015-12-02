@@ -14,7 +14,17 @@
  * @return {number}
  */
 var removeElement = function(nums, val) {
+  var index = 0;
+  nums.forEach(function (n) {
+    if (n !== val) {
+      nums[index++] = n;  // copy value {n} to {nums[index + 1]}
+    }
+  });
 
+  // remove extra array items
+  nums.length = index;
+
+  return nums.length;
 };
 
 // mocha testing
@@ -41,6 +51,17 @@ describe('Remove Element', function() {
 
     expect(input.nums.sort()).to.deep.equal([2, 2, 5, 6]);
     expect(output).to.equal(4);
+  });
+
+  it('[], val = 0', function () {
+    var input = {
+      nums: [],
+      val: 0
+    };
+    var output = removeElement(input.nums, input.val);
+
+    expect(input.nums.sort()).to.deep.equal([]);
+    expect(output).to.equal(0);
   });
 
 });
