@@ -25,7 +25,19 @@ function ListNode(val) {
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
+  var nodes = [];
+  for (var ptr = head; ptr !== null; ptr = ptr.next) {
+    nodes.push(ptr);
+  }
 
+  var index = nodes.length - n;
+  if (index === 0) {
+    // first node
+    return head.next;
+  }
+
+  nodes[index - 1].next = nodes[index].next;
+  return head;
 };
 
 function linkedList(numbers) {
@@ -61,4 +73,33 @@ describe('Remove Nth Node From End of List', function() {
     expect(output).to.deep.equal(linkedList([1, 2, 3, 5]));
   });
 
+  it('1 → 2 → 3 → 4 → 5, n = 5', function () {
+    var input = {
+      head: linkedList([1, 2, 3, 4, 5]),
+      n: 5
+    };
+    var output = removeNthFromEnd(input.head, input.n);
+
+    expect(output).to.deep.equal(linkedList([2, 3, 4, 5]));
+  });
+
+  it('1 → 2 → 3 → 4 → 5, n = 1', function () {
+    var input = {
+      head: linkedList([1, 2, 3, 4, 5]),
+      n: 1
+    };
+    var output = removeNthFromEnd(input.head, input.n);
+
+    expect(output).to.deep.equal(linkedList([1, 2, 3, 4]));
+  });
+
+  it('1, n = 1', function () {
+    var input = {
+      head: linkedList([1]),
+      n: 1
+    };
+    var output = removeNthFromEnd(input.head, input.n);
+
+    expect(output).to.deep.equal(null);
+  });
 });
