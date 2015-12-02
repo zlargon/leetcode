@@ -14,10 +14,8 @@
  *  - Two Pointers
  */
 
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
+var ListNode   = require('../lib/ListNode');
+var LinkedList = require('../lib/LinkedList');
 
 /**
  * @param {ListNode} head
@@ -40,23 +38,6 @@ var removeNthFromEnd = function(head, n) {
   return head;
 };
 
-function linkedList(numbers) {
-  var root = null;
-  var prev = null;
-
-  numbers.forEach(num => {
-    if (root === null) {
-      root = new ListNode(num);
-      prev = root;
-      return;
-    }
-
-    prev.next = new ListNode(num);
-    prev = prev.next;
-  });
-
-  return root;
-}
 
 // mocha testing
 var expect = require('chai').expect;
@@ -65,37 +46,37 @@ describe('Remove Nth Node From End of List', function() {
   // default testing example
   it('1 → 2 → 3 → 4 → 5, n = 2', function () {
     var input = {
-      head: linkedList([1, 2, 3, 4, 5]),
+      head: LinkedList(1, 2, 3, 4, 5),
       n: 2
     };
     var output = removeNthFromEnd(input.head, input.n);
 
-    expect(output).to.deep.equal(linkedList([1, 2, 3, 5]));
+    expect(output).to.deep.equal(LinkedList(1, 2, 3, 5));
   });
 
   it('1 → 2 → 3 → 4 → 5, n = 5', function () {
     var input = {
-      head: linkedList([1, 2, 3, 4, 5]),
+      head: LinkedList(1, 2, 3, 4, 5),
       n: 5
     };
     var output = removeNthFromEnd(input.head, input.n);
 
-    expect(output).to.deep.equal(linkedList([2, 3, 4, 5]));
+    expect(output).to.deep.equal(LinkedList(2, 3, 4, 5));
   });
 
   it('1 → 2 → 3 → 4 → 5, n = 1', function () {
     var input = {
-      head: linkedList([1, 2, 3, 4, 5]),
+      head: LinkedList(1, 2, 3, 4, 5),
       n: 1
     };
     var output = removeNthFromEnd(input.head, input.n);
 
-    expect(output).to.deep.equal(linkedList([1, 2, 3, 4]));
+    expect(output).to.deep.equal(LinkedList(1, 2, 3, 4));
   });
 
   it('1, n = 1', function () {
     var input = {
-      head: linkedList([1]),
+      head: LinkedList(1),
       n: 1
     };
     var output = removeNthFromEnd(input.head, input.n);

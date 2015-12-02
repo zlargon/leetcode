@@ -6,10 +6,8 @@
  *  - Linked List
  */
 
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
+var ListNode   = require('../lib/ListNode');
+var LinkedList = require('../lib/LinkedList');
 
 /**
  * @param {ListNode} l1
@@ -20,36 +18,18 @@ var mergeTwoLists = function(l1, l2) {
 
 };
 
-function linkedList(numbers) {
-  var root = null;
-  var prev = null;
-
-  numbers.forEach(num => {
-    if (root === null) {
-      root = new ListNode(num);
-      prev = root;
-      return;
-    }
-
-    prev.next = new ListNode(num);
-    prev = prev.next;
-  });
-
-  return root;
-}
-
 // mocha testing
 var expect = require('chai').expect;
 describe('Merge Two Sorted Lists', function() {
 
   it('(2 -> 3 -> 4) + (4 -> 5 -> 6)', function () {
     var input = {
-      l1: linkedList([2, 3, 4]),
-      l2: linkedList([4, 5, 6])
+      l1: LinkedList(2, 3, 4),
+      l2: LinkedList(4, 5, 6)
     };
     var output = mergeTwoLists(input.l1, input.l2);
 
-    expect(output).to.deep.equal(linkedList([2, 3, 4, 4, 5, 6]));
+    expect(output).to.deep.equal(LinkedList(2, 3, 4, 4, 5, 6));
   });
 
 });
