@@ -29,7 +29,7 @@
 | Algorithms | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | ✘ |
 | Algorithms | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [✓](src/remove-duplicates-from-sorted-array.js) |
 | Algorithms | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [✓](src/remove-element.js) |
-| Algorithms | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | Easy | ✘ |
+| Algorithms | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | Easy | [✓](src/implement-strstr.js) |
 | Algorithms | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | ✘ |
 | Algorithms | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | ✘ |
 | Algorithms | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | ✘ |
