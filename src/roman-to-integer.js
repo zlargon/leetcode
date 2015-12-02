@@ -75,8 +75,8 @@ describe('Roman to Integer', function() {
     expect(output).to.equal(48);
   });
 
-  it('IL', function () {
-    var input = 'IL';
+  it('XLIX', function () {
+    var input = 'XLIX';
     var output = romanToInt(input);
     expect(output).to.equal(49);
   });
