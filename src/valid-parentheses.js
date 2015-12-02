@@ -12,7 +12,28 @@
  * @return {boolean}
  */
 var isValid = function(s) {
+  var close = {
+    [')']: '(',
+    [']']: '[',
+    ['}']: '{'
+  };
 
+  var stack = [];
+  for (var i = 0; i < s.length; i++) {
+    var c = s.charAt(i);
+    if (c === '(' || c === '[' || c === '{') {
+      stack.push(c);
+      continue;
+    }
+
+    if (stack[stack.length - 1] !== close[c]) {
+      return false;
+    }
+
+    stack.pop();
+  }
+
+  return stack.length === 0;
 };
 
 // mocha testing
@@ -45,6 +66,24 @@ describe('Valid Parentheses', function() {
     var input = '([)]';
     var output = isValid(input);
     expect(output).to.equal(false);
+  });
+
+  it('[', function () {
+    var input = '[';
+    var output = isValid(input);
+    expect(output).to.equal(false);
+  });
+
+  it('([{[()]}]', function () {
+    var input = '([{[()]}]';
+    var output = isValid(input);
+    expect(output).to.equal(false);
+  });
+
+  it('([{()[]{}[{()()}]}])', function () {
+    var input = '([{()[]{}[{()()}]}])';
+    var output = isValid(input);
+    expect(output).to.equal(true);
   });
 
 });

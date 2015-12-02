@@ -21,7 +21,7 @@
 | Algorithms | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [✘](src/letter-combinations-of-a-phone-number.js) |
 | Algorithms | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | [✘](src/4sum.js) |
 | Algorithms | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Easy | [✓](src/remove-nth-node-from-end-of-list.js) |
-| Algorithms | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [✘](src/valid-parentheses.js) |
+| Algorithms | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [✓](src/valid-parentheses.js) |
 | Algorithms | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [✘](src/merge-two-sorted-lists.js) |
 | Algorithms | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [✘](src/generate-parentheses.js) |
 | Algorithms | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [✘](src/merge-k-sorted-lists.js) |
