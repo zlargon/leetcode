@@ -17,7 +17,17 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
+  var index = -1;
+  nums.forEach(function (n) {
+    if (n !== nums[index]) {
+      nums[++index] = n;  // copy value {n} to {nums[index + 1]}
+    }
+  });
 
+  // remove extra array items
+  nums.length = index + 1;
+
+  return nums.length;
 };
 
 
@@ -34,4 +44,27 @@ describe('Remove Duplicates from Sorted Array', function() {
     expect(output).to.equal(2);
   });
 
+  it('[0] => [0]', function () {
+    var input = [0];
+    var output = removeDuplicates(input);
+
+    expect(input).to.deep.equal([0]);
+    expect(output).to.equal(1);
+  });
+
+  it('[1, 1, 1, 1, 1, 1] => [1]', function () {
+    var input = [1, 1, 1, 1, 1, 1];
+    var output = removeDuplicates(input);
+
+    expect(input).to.deep.equal([1]);
+    expect(output).to.equal(1);
+  });
+
+  it('[] => []', function () {
+    var input = [];
+    var output = removeDuplicates(input);
+
+    expect(input).to.deep.equal([]);
+    expect(output).to.equal(0);
+  });
 });

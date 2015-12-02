@@ -27,7 +27,7 @@
 | Algorithms | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [✘](src/merge-k-sorted-lists.js) |
 | Algorithms | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [✘](src/swap-nodes-in-pairs.js) |
 | Algorithms | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [✘](src/reverse-nodes-in-k-group.js) |
-| Algorithms | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [✘](src/remove-duplicates-from-sorted-array.js) |
+| Algorithms | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [✓](src/remove-duplicates-from-sorted-array.js) |
 | Algorithms | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [✘](src/remove-element.js) |
 | Algorithms | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | Easy | [✘](src/implement-strstr.js) |
 | Algorithms | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [✘](src/divide-two-integers.js) |
