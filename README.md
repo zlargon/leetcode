@@ -37,7 +37,7 @@
 | Algorithms | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Hard | ✘ |
 | Algorithms | 34 | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) | Medium | ✘ |
 | Algorithms | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Medium | ✘ |
-| Algorithms | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Easy | ✘ |
+| Algorithms | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Easy | [✓](src/valid-sudoku.js) |
 | Algorithms | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | ✘ |
 | Algorithms | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/) | Easy | ✘ |
 | Algorithms | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | ✘ |
