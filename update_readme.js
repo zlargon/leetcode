@@ -58,16 +58,18 @@ coroutine(function * () {
       const file = uri.split('/')[2] + '.js';
 
       // mocha test
-      let symbol = '✘';
+      let state = '✘';
       try {
         const result = yield mochaTest(path.resolve(__dirname, 'src', file));
-        if (result === true) symbol = '✓';
+        if (result === true) {
+          state = `[✓](src/${file})`;
+        }
       } catch (e) {
         // file is not exist
       }
 
       // add to table
-      table.push(`| ${capitalize(category)} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | [${symbol}](src/${file}) |`);
+      table.push(`| ${capitalize(category)} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | ${state} |`);
     }
     return table.join('\n');
   });
