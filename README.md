@@ -68,7 +68,7 @@
 | Algorithms | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | ✘ |
 | Algorithms | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | Hard | ✘ |
 | Algorithms | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [✓](src/plus-one.js) |
-| Algorithms | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | ✘ |
+| Algorithms | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [✓](src/add-binary.js) |
 | Algorithms | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | Hard | ✘ |
 | Algorithms | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Medium | ✘ |
 | Algorithms | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | ✘ |
