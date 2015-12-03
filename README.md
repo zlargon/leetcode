@@ -59,7 +59,7 @@
 | Algorithms | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | ✘ |
 | Algorithms | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Hard | ✘ |
 | Algorithms | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Hard | ✘ |
-| Algorithms | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | ✘ |
+| Algorithms | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | Easy | [✓](src/length-of-last-word.js) |
 | Algorithms | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | ✘ |
 | Algorithms | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | Medium | ✘ |
 | Algorithms | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | ✘ |
@@ -314,3 +314,4 @@
 | Algorithms | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | ✘ |
 | Algorithms | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | Medium | ✘ |
 | Algorithms | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Medium | ✘ |
+| Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
