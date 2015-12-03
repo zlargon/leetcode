@@ -1,5 +1,9 @@
 #LeetCode
 
+* Easy (18/88)
+* Medium (4/162)
+* Hard (0/63)
+
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
 | Algorithms | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [✓](src/two-sum.js) |

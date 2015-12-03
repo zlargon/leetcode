@@ -9,9 +9,8 @@ import Mocha     from 'mocha';
 const HOST = 'https://leetcode.com';
 const OUTPUT = path.resolve(__dirname, 'README.md');
 
-function capitalize (str) {
-  return str.charAt(0).toUpperCase() + str.substr(1)
-};
+const Categories = ['Algorithms', 'Database', 'Shell'];
+const Difficulties = ['Easy', 'Medium', 'Hard'];
 
 function mochaTest (file) {
   return new Promise((resolve, reject) => {
@@ -23,18 +22,17 @@ function mochaTest (file) {
   });
 }
 
-coroutine(function * () {
-  const categories = ['algorithms', 'database', 'shell'];
-  let result = [];
-  for (let i = 0; i < categories.length; i++) {
-    const category = categories[i];
-    result.push({
-      category,
-      html: yield fetch(HOST + '/problemset/' + category).then(res => res.text())
+// Start
+Promise.all(Categories.map(category => {
+  return fetch(HOST + '/problemset/' + category.toLowerCase())
+    .then(res => res.text())
+    .then(html => {
+      return {
+        category,
+        html
+      }
     });
-  }
-  return result;
-})
+}))
 .then(result => {
   return result.reduce((list, { category, html }) => {
     const $ = cheerio.load(html);
@@ -52,35 +50,65 @@ coroutine(function * () {
 })
 .then(problemList => {
   return coroutine(function * () {
-    let table = [];
-    for (let i = 1; i < problemList.length; i++) {
-      const { no, category, title, uri, acceptance, difficulty } = problemList[i];
-      const file = uri.split('/')[2] + '.js';
+    let statistics = {};
 
-      // mocha test
-      let state = '✘';
+    for (let i = 1; i < problemList.length; i++) {
+      const { category, uri, difficulty } = problemList[i];
+      const name = uri.split('/')[2];
+
+      // state
+      let state = false;
       try {
-        const result = yield mochaTest(path.resolve(__dirname, 'src', file));
-        if (result === true) {
-          state = `[✓](src/${file})`;
-        }
+        state = yield mochaTest(path.resolve(__dirname, 'src', name + '.js'));
       } catch (e) {
         // file is not exist
       }
 
-      // add to table
-      table.push(`| ${capitalize(category)} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | ${state} |`);
+      // add name and state
+      Object.assign(problemList[i], {
+        name, state
+      });
+
+      // Difficulty Statistics
+      if (!statistics.hasOwnProperty(difficulty)) {
+        statistics[difficulty] = { total: 0, solve: 0 };
+      }
+      statistics[difficulty].total += 1;
+      statistics[difficulty].solve += state ? 1 : 0;
+
+      // Category Statistics
+      if (!statistics.hasOwnProperty(category)) {
+        statistics[category] = { total: 0, solve: 0 };
+      }
+      statistics[category].total += 1;
+      statistics[category].solve += state ? 1 : 0;
     }
-    return table.join('\n');
+
+    return {
+      problemList,
+      statistics
+    };
   });
 })
-.then(leetcodeTable => {
-  const markdown = `#LeetCode\n
+.then(({ statistics, problemList }) => {
+  const difficultyStatistics = Difficulties.map(difficulty => {
+    const { total, solve } = statistics[difficulty];
+    return `* ${difficulty} (${solve}/${total})`;
+  }).join('\n');
+
+  const leetcodeTable = problemList.map(problem => {
+    const { category, no, name, title, uri, difficulty, state } = problem;
+    return `| ${category} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
+  }).join('\n').trim();
+
+  return `#LeetCode\n
+${difficultyStatistics}\n
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
 ${leetcodeTable}\n`;
-
-  fs.writeFileSync(OUTPUT, markdown);
 })
-.then(() => console.log('Save to ' + OUTPUT))
+.then(markdown => {
+  fs.writeFileSync(OUTPUT, markdown);
+  console.log('Save to ' + OUTPUT);
+})
 .catch(e => console.log(e.stack));
