@@ -71,7 +71,7 @@
 | Algorithms | 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [✓](src/add-binary.js) |
 | Algorithms | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | Hard | ✘ |
 | Algorithms | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Medium | ✘ |
-| Algorithms | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | ✘ |
+| Algorithms | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [✓](src/climbing-stairs.js) |
 | Algorithms | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | Medium | ✘ |
 | Algorithms | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Hard | ✘ |
 | Algorithms | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | ✘ |
