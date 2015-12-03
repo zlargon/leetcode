@@ -12,7 +12,21 @@
  * @return {number[]}
  */
 var plusOne = function(digits) {
+  var end = digits.length - 1;
+  digits[end] ++;
 
+  var carry = 0;
+  for (var i = end; i >= 0; i--) {
+    var val = digits[i] + carry;
+    digits[i] = val % 10;
+    carry = Math.floor(val / 10);
+  }
+
+  if (carry > 0) {
+    digits.unshift(carry);
+  }
+
+  return digits;
 };
 
 
@@ -31,6 +45,12 @@ describe('Plus One', function() {
     var input = [0, 0, 1];
     var output = plusOne(input);
     expect(output).to.deep.equal([0, 0, 2]);
+  });
+
+  it('[9, 9, 9] => [1, 0, 0, 0]', function () {
+    var input = [9, 9, 9];
+    var output = plusOne(input);
+    expect(output).to.deep.equal([1, 0, 0, 0]);
   });
 
 });
