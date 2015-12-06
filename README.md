@@ -1,8 +1,8 @@
 #LeetCode
 
-* Easy (18/88)
-* Medium (4/162)
-* Hard (0/63)
+* Easy (19/88)
+* Medium (4/163)
+* Hard (0/64)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -88,7 +88,7 @@
 | Algorithms | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | ✘ |
 | Algorithms | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | ✘ |
 | Algorithms | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium | ✘ |
-| Algorithms | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | ✘ |
+| Algorithms | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [✓](src/remove-duplicates-from-sorted-list.js) |
 | Algorithms | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | ✘ |
 | Algorithms | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | Hard | ✘ |
 | Algorithms | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | ✘ |
@@ -319,3 +319,5 @@
 | Algorithms | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | Medium | ✘ |
 | Algorithms | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Medium | ✘ |
 | Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
+| Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Medium | ✘ |
+| Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |
