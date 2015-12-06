@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (19/88)
+* Easy (20/88)
 * Medium (4/163)
 * Hard (0/64)
 
@@ -93,7 +93,7 @@
 | Algorithms | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | Hard | ✘ |
 | Algorithms | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | Medium | ✘ |
 | Algorithms | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/) | Hard | ✘ |
-| Algorithms | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | ✘ |
+| Algorithms | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | [✓](src/merge-sorted-array.js) |
 | Algorithms | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | Medium | ✘ |
 | Algorithms | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | ✘ |
 | Algorithms | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | ✘ |
