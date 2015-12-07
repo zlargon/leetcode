@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (27/88)
+* Easy (28/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -123,7 +123,7 @@
 | Algorithms | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | ✘ |
 | Algorithms | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Medium | ✘ |
 | Algorithms | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | Hard | ✘ |
-| Algorithms | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | ✘ |
+| Algorithms | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [✓](src/pascals-triangle.js) |
 | Algorithms | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | ✘ |
 | Algorithms | 120 | [Triangle](https://leetcode.com/problems/triangle/) | Medium | ✘ |
 | Algorithms | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Medium | ✘ |
