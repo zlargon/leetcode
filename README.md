@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (22/88)
+* Easy (23/88)
 * Medium (4/163)
 * Hard (0/64)
 
@@ -107,7 +107,7 @@
 | Algorithms | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Hard | ✘ |
 | Algorithms | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [✓](src/same-tree.js) |
 | Algorithms | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [✓](src/symmetric-tree.js) |
-| Algorithms | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Easy | ✘ |
+| Algorithms | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Easy | [✓](src/binary-tree-level-order-traversal.js) |
 | Algorithms | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | ✘ |
 | Algorithms | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✘ |
 | Algorithms | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | ✘ |
