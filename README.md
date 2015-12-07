@@ -1,7 +1,7 @@
 #LeetCode
 
 * Easy (26/88)
-* Medium (4/163)
+* Medium (5/163)
 * Hard (0/64)
 
 | Category | #     | Title | Difficulty | State |
@@ -156,7 +156,7 @@
 | Algorithms | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | ✘ |
 | Algorithms | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Hard | ✘ |
 | Algorithms | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | ✘ |
-| Algorithms | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | ✘ |
+| Algorithms | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [✓](src/reverse-words-in-a-string.js) |
 | Algorithms | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | ✘ |
 | Algorithms | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✘ |
 | Algorithms | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | ✘ |
