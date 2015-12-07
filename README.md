@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (23/88)
+* Easy (24/88)
 * Medium (4/163)
 * Hard (0/64)
 
@@ -109,7 +109,7 @@
 | Algorithms | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [✓](src/symmetric-tree.js) |
 | Algorithms | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Easy | [✓](src/binary-tree-level-order-traversal.js) |
 | Algorithms | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | ✘ |
-| Algorithms | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | ✘ |
+| Algorithms | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [✓](src/maximum-depth-of-binary-tree.js) |
 | Algorithms | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | ✘ |
 | Algorithms | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | ✘ |
 | Algorithms | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Easy | ✘ |
