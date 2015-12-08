@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (33/88)
+* Easy (34/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -165,7 +165,7 @@
 | Algorithms | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | Easy | ✘ |
 | Algorithms | 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | Hard | ✘ |
 | Algorithms | 159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | Hard | ✘ |
-| Algorithms | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | ✘ |
+| Algorithms | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [✓](src/intersection-of-two-linked-lists.js) |
 | Algorithms | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) | Medium | ✘ |
 | Algorithms | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✘ |
 | Algorithms | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) | Medium | ✘ |
