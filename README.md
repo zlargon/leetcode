@@ -161,21 +161,21 @@
 | Algorithms | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✘ |
 | Algorithms | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | ✘ |
 | Algorithms | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy | ✘ |
-| Algorithms | 156 | [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) | Medium | ✘ |
-| Algorithms | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | Easy | ✘ |
-| Algorithms | 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | Hard | ✘ |
-| Algorithms | 159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | Hard | ✘ |
+| Algorithms | 156 | [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) :blue_book: | Medium | ✘ |
+| Algorithms | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) :blue_book: | Easy | ✘ |
+| Algorithms | 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) :blue_book: | Hard | ✘ |
+| Algorithms | 159 | [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) :blue_book: | Hard | ✘ |
 | Algorithms | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [✓](src/intersection-of-two-linked-lists.js) |
-| Algorithms | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) | Medium | ✘ |
+| Algorithms | 161 | [One Edit Distance](https://leetcode.com/problems/one-edit-distance/) :blue_book: | Medium | ✘ |
 | Algorithms | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✘ |
-| Algorithms | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) | Medium | ✘ |
+| Algorithms | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) :blue_book: | Medium | ✘ |
 | Algorithms | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | Hard | ✘ |
 | Algorithms | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Easy | [✓](src/compare-version-numbers.js) |
 | Algorithms | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | ✘ |
-| Algorithms | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | ✘ |
+| Algorithms | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) :blue_book: | Medium | ✘ |
 | Algorithms | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | ✘ |
 | Algorithms | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✘ |
-| Algorithms | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | Easy | ✘ |
+| Algorithms | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) :blue_book: | Easy | ✘ |
 | Algorithms | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | ✘ |
 | Algorithms | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Easy | ✘ |
 | Algorithms | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | ✘ |
@@ -191,7 +191,7 @@
 | Database | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | ✘ |
 | Database | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | Medium | ✘ |
 | Database | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard | ✘ |
-| Algorithms | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) | Medium | ✘ |
+| Algorithms | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | ✘ |
 | Algorithms | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | ✘ |
 | Algorithms | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | ✘ |
@@ -248,76 +248,76 @@
 | Algorithms | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | ✘ |
 | Algorithms | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | ✘ |
 | Algorithms | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✘ |
-| Algorithms | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | Easy | ✘ |
-| Algorithms | 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) | Medium | ✘ |
-| Algorithms | 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) | Medium | ✘ |
-| Algorithms | 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) | Easy | ✘ |
-| Algorithms | 247 | [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) | Medium | ✘ |
-| Algorithms | 248 | [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/) | Hard | ✘ |
-| Algorithms | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) | Easy | ✘ |
-| Algorithms | 250 | [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) | Medium | ✘ |
-| Algorithms | 251 | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) | Medium | ✘ |
-| Algorithms | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | ✘ |
-| Algorithms | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | ✘ |
-| Algorithms | 254 | [Factor Combinations](https://leetcode.com/problems/factor-combinations/) | Medium | ✘ |
-| Algorithms | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) | Medium | ✘ |
-| Algorithms | 256 | [Paint House](https://leetcode.com/problems/paint-house/) | Medium | ✘ |
+| Algorithms | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) :blue_book: | Easy | ✘ |
+| Algorithms | 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) :blue_book: | Medium | ✘ |
+| Algorithms | 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) :blue_book: | Medium | ✘ |
+| Algorithms | 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) :blue_book: | Easy | ✘ |
+| Algorithms | 247 | [Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/) :blue_book: | Medium | ✘ |
+| Algorithms | 248 | [Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/) :blue_book: | Hard | ✘ |
+| Algorithms | 249 | [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) :blue_book: | Easy | ✘ |
+| Algorithms | 250 | [Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) :blue_book: | Medium | ✘ |
+| Algorithms | 251 | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/) :blue_book: | Medium | ✘ |
+| Algorithms | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) :blue_book: | Easy | ✘ |
+| Algorithms | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) :blue_book: | Medium | ✘ |
+| Algorithms | 254 | [Factor Combinations](https://leetcode.com/problems/factor-combinations/) :blue_book: | Medium | ✘ |
+| Algorithms | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) :blue_book: | Medium | ✘ |
+| Algorithms | 256 | [Paint House](https://leetcode.com/problems/paint-house/) :blue_book: | Medium | ✘ |
 | Algorithms | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | [✓](src/binary-tree-paths.js) |
 | Algorithms | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | ✘ |
-| Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | Medium | ✘ |
+| Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) :blue_book: | Medium | ✘ |
 | Algorithms | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | ✘ |
-| Algorithms | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | ✘ |
+| Algorithms | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :blue_book: | Medium | ✘ |
 | Database | 262 | [Trips and Users](https://leetcode.com/problems/trips-and-users/) | Hard | ✘ |
 | Algorithms | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | ✘ |
 | Algorithms | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | ✘ |
-| Algorithms | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) | Hard | ✘ |
-| Algorithms | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | Easy | ✘ |
-| Algorithms | 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | Medium | ✘ |
+| Algorithms | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) :blue_book: | Hard | ✘ |
+| Algorithms | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) :blue_book: | Easy | ✘ |
+| Algorithms | 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Medium | ✘ |
-| Algorithms | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | Hard | ✘ |
-| Algorithms | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) | Easy | ✘ |
-| Algorithms | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Medium | ✘ |
-| Algorithms | 272 | [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) | Hard | ✘ |
+| Algorithms | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) :blue_book: | Hard | ✘ |
+| Algorithms | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) :blue_book: | Easy | ✘ |
+| Algorithms | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) :blue_book: | Medium | ✘ |
+| Algorithms | 272 | [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Medium | ✘ |
 | Algorithms | 274 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | ✘ |
 | Algorithms | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | ✘ |
-| Algorithms | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) | Easy | ✘ |
-| Algorithms | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | Medium | ✘ |
+| Algorithms | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) :blue_book: | Easy | ✘ |
+| Algorithms | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) :blue_book: | Medium | ✘ |
 | Algorithms | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | ✘ |
 | Algorithms | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | ✘ |
-| Algorithms | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) | Medium | ✘ |
-| Algorithms | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) | Medium | ✘ |
+| Algorithms | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) :blue_book: | Medium | ✘ |
+| Algorithms | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) :blue_book: | Medium | ✘ |
 | Algorithms | 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | Hard | ✘ |
 | Algorithms | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | ✘ |
 | Algorithms | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | Medium | ✘ |
-| Algorithms | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | Medium | ✘ |
-| Algorithms | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | Medium | ✘ |
+| Algorithms | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) :blue_book: | Medium | ✘ |
+| Algorithms | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) :blue_book: | Medium | ✘ |
 | Algorithms | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Hard | ✘ |
-| Algorithms | 288 | [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) | Easy | ✘ |
+| Algorithms | 288 | [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) :blue_book: | Easy | ✘ |
 | Algorithms | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium | ✘ |
 | Algorithms | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | ✘ |
-| Algorithms | 291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) | Hard | ✘ |
+| Algorithms | 291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | Easy | ✘ |
-| Algorithms | 293 | [Flip Game](https://leetcode.com/problems/flip-game/) | Easy | ✘ |
-| Algorithms | 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/) | Medium | ✘ |
+| Algorithms | 293 | [Flip Game](https://leetcode.com/problems/flip-game/) :blue_book: | Easy | ✘ |
+| Algorithms | 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✘ |
-| Algorithms | 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) | Hard | ✘ |
+| Algorithms | 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) :blue_book: | Hard | ✘ |
 | Algorithms | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Medium | ✘ |
-| Algorithms | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) | Medium | ✘ |
+| Algorithms | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) :blue_book: | Medium | ✘ |
 | Algorithms | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Easy | ✘ |
 | Algorithms | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✘ |
 | Algorithms | 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | ✘ |
-| Algorithms | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) | Hard | ✘ |
+| Algorithms | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) :blue_book: | Hard | ✘ |
 | Algorithms | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | ✘ |
 | Algorithms | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | ✘ |
-| Algorithms | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) | Hard | ✘ |
+| Algorithms | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 306 | [Additive Number](https://leetcode.com/problems/additive-number/) | Medium | ✘ |
 | Algorithms | 307 | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | Medium | ✘ |
-| Algorithms | 308 | [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) | Hard | ✘ |
+| Algorithms | 308 | [Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/) :blue_book: | Hard | ✘ |
 | Algorithms | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | ✘ |
 | Algorithms | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | ✘ |
-| Algorithms | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) | Medium | ✘ |
+| Algorithms | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) :blue_book: | Medium | ✘ |
 | Algorithms | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Medium | ✘ |
 | Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
-| Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | Medium | ✘ |
+| Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) :blue_book: | Medium | ✘ |
 | Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |

@@ -41,9 +41,10 @@ Promise.all(Categories.map(category => {
       const no         = Number.parseInt(td.eq(1).text().trim(), 10);
       const title      = td.eq(2).find('a').text().trim();
       const uri        = td.eq(2).find('a').attr('href').trim();
+      const lock       = td.eq(2).find('i').attr('class') ? true : false;
       const acceptance = td.eq(3).text().trim();
       const difficulty = td.eq(4).text().trim();
-      list[no] = { no, category, title, uri, acceptance, difficulty };
+      list[no] = { no, category, title, uri, lock, acceptance, difficulty };
     });
     return list;
   }, []);
@@ -97,8 +98,8 @@ Promise.all(Categories.map(category => {
   }).join('\n');
 
   const leetcodeTable = problemList.map(problem => {
-    const { category, no, name, title, uri, difficulty, state } = problem;
-    return `| ${category} | ${no} | [${title}](${HOST + uri}) | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
+    const { category, no, name, title, uri, lock, difficulty, state } = problem;
+    return `| ${category} | ${no} | [${title}](${HOST + uri})${lock ? ' :blue_book:' : ''} | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
   }).join('\n').trim();
 
   return `#LeetCode\n
