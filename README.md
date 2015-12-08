@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (31/88)
+* Easy (32/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -196,7 +196,7 @@
 | Algorithms | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | ✘ |
 | Algorithms | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | ✘ |
 | Algorithms | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | ✘ |
-| Algorithms | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | ✘ |
+| Algorithms | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [✓](src/number-of-1-bits.js) |
 | Shell | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | ✘ |
 | Shell | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | Easy | ✘ |
 | Shell | 194 | [Transpose File](https://leetcode.com/problems/transpose-file/) | Medium | ✘ |
