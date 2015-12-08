@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (35/88)
+* Easy (36/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -160,7 +160,7 @@
 | Algorithms | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | ✘ |
 | Algorithms | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | ✘ |
 | Algorithms | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | ✘ |
-| Algorithms | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy | ✘ |
+| Algorithms | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy | [✓](src/min-stack.js) |
 | Algorithms | 156 | [Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/) :blue_book: | Medium | ✘ |
 | Algorithms | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) :blue_book: | Easy | ✘ |
 | Algorithms | 158 | [Read N Characters Given Read4 II - Call multiple times](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) :blue_book: | Hard | ✘ |
