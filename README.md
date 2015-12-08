@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (30/88)
+* Easy (31/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -262,7 +262,7 @@
 | Algorithms | 254 | [Factor Combinations](https://leetcode.com/problems/factor-combinations/) | Medium | ✘ |
 | Algorithms | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) | Medium | ✘ |
 | Algorithms | 256 | [Paint House](https://leetcode.com/problems/paint-house/) | Medium | ✘ |
-| Algorithms | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | ✘ |
+| Algorithms | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | [✓](src/binary-tree-paths.js) |
 | Algorithms | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | ✘ |
 | Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) | Medium | ✘ |
 | Algorithms | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | ✘ |
