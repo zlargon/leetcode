@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (29/88)
+* Easy (30/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -130,7 +130,7 @@
 | Algorithms | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | ✘ |
 | Algorithms | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | ✘ |
 | Algorithms | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | ✘ |
-| Algorithms | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | ✘ |
+| Algorithms | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [✓](src/valid-palindrome.js) |
 | Algorithms | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Hard | ✘ |
 | Algorithms | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Medium | ✘ |
 | Algorithms | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Hard | ✘ |
