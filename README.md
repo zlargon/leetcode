@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (36/88)
+* Easy (37/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -308,7 +308,7 @@
 | Algorithms | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✘ |
 | Algorithms | 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | ✘ |
 | Algorithms | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) :blue_book: | Hard | ✘ |
-| Algorithms | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | ✘ |
+| Algorithms | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [✓](src/range-sum-query-immutable.js) |
 | Algorithms | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | Medium | ✘ |
 | Algorithms | 305 | [Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 306 | [Additive Number](https://leetcode.com/problems/additive-number/) | Medium | ✘ |
