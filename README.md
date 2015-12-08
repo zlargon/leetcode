@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (32/88)
+* Easy (33/88)
 * Medium (5/163)
 * Hard (0/64)
 
@@ -170,7 +170,7 @@
 | Algorithms | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | ✘ |
 | Algorithms | 163 | [Missing Ranges](https://leetcode.com/problems/missing-ranges/) | Medium | ✘ |
 | Algorithms | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | Hard | ✘ |
-| Algorithms | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Easy | ✘ |
+| Algorithms | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Easy | [✓](src/compare-version-numbers.js) |
 | Algorithms | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | ✘ |
 | Algorithms | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | ✘ |
 | Algorithms | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | ✘ |
