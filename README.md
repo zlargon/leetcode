@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (39/88)
+* Easy (40/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -115,7 +115,7 @@
 | Algorithms | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Easy | [✓](src/binary-tree-level-order-traversal-ii.js) |
 | Algorithms | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Medium | ✘ |
 | Algorithms | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Medium | ✘ |
-| Algorithms | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | ✘ |
+| Algorithms | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [✓](src/balanced-binary-tree.js) |
 | Algorithms | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Easy | [✓](src/minimum-depth-of-binary-tree.js) |
 | Algorithms | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | [✓](src/path-sum.js) |
 | Algorithms | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | ✘ |
