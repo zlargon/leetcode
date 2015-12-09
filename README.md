@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (40/88)
+* Easy (41/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -173,7 +173,7 @@
 | Algorithms | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Easy | [✓](src/compare-version-numbers.js) |
 | Algorithms | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | ✘ |
 | Algorithms | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) :blue_book: | Medium | ✘ |
-| Algorithms | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | ✘ |
+| Algorithms | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [✓](src/excel-sheet-column-title.js) |
 | Algorithms | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | ✘ |
 | Algorithms | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) :blue_book: | Easy | ✘ |
 | Algorithms | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | ✘ |
