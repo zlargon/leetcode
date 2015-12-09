@@ -19,16 +19,15 @@ var maxDepth = function(root) {
     return 0;
   }
 
-  var maxLevel = 0;
-  function getMaxLevel(node, lv) {
-    if (node === null) return;
-    getMaxLevel(node.left, lv + 1);
-    if (lv > maxLevel) maxLevel = lv;
-    getMaxLevel(node.right, lv + 1);
+  // it's leaf node
+  if (root.left === null && root.right === null) {
+    return 1;
   }
 
-  getMaxLevel(root, 0);
-  return maxLevel + 1;
+  var left = maxDepth(root.left);
+  var right = maxDepth(root.right);
+
+  return Math.max(left, right) + 1;
 };
 
 // mocha testing
