@@ -1,7 +1,7 @@
 #LeetCode
 
-* Easy (37/88)
-* Medium (5/163)
+* Easy (38/88)
+* Medium (5/164)
 * Hard (0/64)
 
 | Category | #     | Title | Difficulty | State |
@@ -304,7 +304,7 @@
 | Algorithms | 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) :blue_book: | Hard | ✘ |
 | Algorithms | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Medium | ✘ |
 | Algorithms | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) :blue_book: | Medium | ✘ |
-| Algorithms | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Easy | ✘ |
+| Algorithms | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Easy | [✓](src/bulls-and-cows.js) |
 | Algorithms | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✘ |
 | Algorithms | 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | Hard | ✘ |
 | Algorithms | 302 | [Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/) :blue_book: | Hard | ✘ |
@@ -321,3 +321,4 @@
 | Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
 | Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) :blue_book: | Medium | ✘ |
 | Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |
+| Algorithms | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | ✘ |
