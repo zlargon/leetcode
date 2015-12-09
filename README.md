@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (43/88)
+* Easy (44/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -177,7 +177,7 @@
 | Algorithms | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [✓](src/majority-element.js) |
 | Algorithms | 170 | [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/) :blue_book: | Easy | ✘ |
 | Algorithms | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | [✓](src/excel-sheet-column-number.js) |
-| Algorithms | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Easy | ✘ |
+| Algorithms | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Easy | [✓](src/factorial-trailing-zeroes.js) |
 | Algorithms | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | ✘ |
 | Algorithms | 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | Hard | ✘ |
 | Database | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | ✘ |
