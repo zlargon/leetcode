@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (38/88)
+* Easy (39/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -297,7 +297,7 @@
 | Algorithms | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium | ✘ |
 | Algorithms | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | ✘ |
 | Algorithms | 291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) :blue_book: | Hard | ✘ |
-| Algorithms | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | Easy | ✘ |
+| Algorithms | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | Easy | [✓](src/nim-game.js) |
 | Algorithms | 293 | [Flip Game](https://leetcode.com/problems/flip-game/) :blue_book: | Easy | ✘ |
 | Algorithms | 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✘ |
