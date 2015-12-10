@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (46/88)
+* Easy (47/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -203,7 +203,7 @@
 | Shell | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | Easy | ✘ |
 | Database | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | ✘ |
 | Database | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | ✘ |
-| Algorithms | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Easy | ✘ |
+| Algorithms | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Easy | [✓](src/house-robber.js) |
 | Algorithms | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | ✘ |
 | Algorithms | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | ✘ |
 | Algorithms | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | ✘ |
