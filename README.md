@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (47/88)
+* Easy (48/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -207,7 +207,7 @@
 | Algorithms | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | ✘ |
 | Algorithms | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | ✘ |
 | Algorithms | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | ✘ |
-| Algorithms | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | ✘ |
+| Algorithms | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [✓](src/happy-number.js) |
 | Algorithms | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | ✘ |
 | Algorithms | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Easy | ✘ |
 | Algorithms | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | ✘ |
