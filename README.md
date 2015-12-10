@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (44/88)
+* Easy (45/88)
 * Medium (5/164)
 * Hard (0/64)
 
@@ -194,7 +194,7 @@
 | Algorithms | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | ✘ |
 | Algorithms | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | ✘ |
-| Algorithms | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | ✘ |
+| Algorithms | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | [✓](src/rotate-array.js) |
 | Algorithms | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | ✘ |
 | Algorithms | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [✓](src/number-of-1-bits.js) |
 | Shell | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | ✘ |
