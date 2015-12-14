@@ -1,8 +1,8 @@
 #LeetCode
 
-* Easy (48/88)
-* Medium (5/164)
-* Hard (0/64)
+* Easy (49/88)
+* Medium (5/163)
+* Hard (0/66)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -208,7 +208,7 @@
 | Algorithms | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | ✘ |
 | Algorithms | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | ✘ |
 | Algorithms | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [✓](src/happy-number.js) |
-| Algorithms | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | ✘ |
+| Algorithms | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [✓](src/remove-linked-list-elements.js) |
 | Algorithms | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Easy | ✘ |
 | Algorithms | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | ✘ |
 | Algorithms | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | ✘ |
@@ -317,8 +317,9 @@
 | Algorithms | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium | ✘ |
 | Algorithms | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) | Medium | ✘ |
 | Algorithms | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) :blue_book: | Medium | ✘ |
-| Algorithms | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Medium | ✘ |
+| Algorithms | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | ✘ |
 | Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
 | Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) :blue_book: | Medium | ✘ |
 | Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |
 | Algorithms | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | ✘ |
+| Algorithms | 317 | [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) :blue_book: | Hard | ✘ |
