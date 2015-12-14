@@ -1,6 +1,6 @@
 #LeetCode
 
-* Easy (49/79)
+* Easy (50/79)
 * Medium (5/157)
 * Hard (0/64)
 
@@ -195,7 +195,7 @@
 | Algorithms | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [✓](src/remove-linked-list-elements.js) |
 | Algorithms | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Easy | ✘ |
 | Algorithms | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | ✘ |
-| Algorithms | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | ✘ |
+| Algorithms | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [✓](src/reverse-linked-list.js) |
 | Algorithms | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✘ |
 | Algorithms | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | ✘ |
 | Algorithms | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | ✘ |
