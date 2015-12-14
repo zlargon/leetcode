@@ -9,7 +9,7 @@ import Mocha     from 'mocha';
 const HOST = 'https://leetcode.com';
 const OUTPUT = path.resolve(__dirname, 'README.md');
 
-const Categories = ['Algorithms', 'Database', 'Shell'];
+const Categories = ['Algorithms']; // Database, Shell
 const Difficulties = ['Easy', 'Medium', 'Hard'];
 
 function mochaTest (file) {
@@ -50,10 +50,12 @@ Promise.all(Categories.map(category => {
   }, []);
 })
 .then(problemList => {
+  return problemList.filter(problem => problem !== null);
+})
+.then(problemList => {
   return coroutine(function * () {
     let statistics = {};
-
-    for (let i = 1; i < problemList.length; i++) {
+    for (let i = 0; i < problemList.length; i++) {
       const { category, uri, difficulty } = problemList[i];
       const name = uri.split('/')[2];
 
@@ -100,7 +102,7 @@ Promise.all(Categories.map(category => {
   const leetcodeTable = problemList.map(problem => {
     const { category, no, name, title, uri, lock, difficulty, state } = problem;
     return `| ${category} | ${no} | [${title}](${HOST + uri})${lock ? ' :blue_book:' : ''} | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
-  }).join('\n').trim();
+  }).join('\n');
 
   return `#LeetCode\n
 ${difficultyStatistics}\n

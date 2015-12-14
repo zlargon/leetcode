@@ -1,8 +1,8 @@
 #LeetCode
 
-* Easy (49/88)
-* Medium (5/163)
-* Hard (0/66)
+* Easy (49/79)
+* Medium (5/157)
+* Hard (0/64)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -180,29 +180,13 @@
 | Algorithms | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Easy | [✓](src/factorial-trailing-zeroes.js) |
 | Algorithms | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | ✘ |
 | Algorithms | 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | Hard | ✘ |
-| Database | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | Easy | ✘ |
-| Database | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Easy | ✘ |
-| Database | 177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/) | Medium | ✘ |
-| Database | 178 | [Rank Scores](https://leetcode.com/problems/rank-scores/) | Medium | ✘ |
 | Algorithms | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | Medium | ✘ |
-| Database | 180 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Medium | ✘ |
-| Database | 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | Easy | ✘ |
-| Database | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | Easy | ✘ |
-| Database | 183 | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/) | Easy | ✘ |
-| Database | 184 | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/) | Medium | ✘ |
-| Database | 185 | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard | ✘ |
 | Algorithms | 186 | [Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | ✘ |
 | Algorithms | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | ✘ |
 | Algorithms | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Easy | [✓](src/rotate-array.js) |
 | Algorithms | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [✓](src/reverse-bits.js) |
 | Algorithms | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [✓](src/number-of-1-bits.js) |
-| Shell | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency/) | Medium | ✘ |
-| Shell | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers/) | Easy | ✘ |
-| Shell | 194 | [Transpose File](https://leetcode.com/problems/transpose-file/) | Medium | ✘ |
-| Shell | 195 | [Tenth Line](https://leetcode.com/problems/tenth-line/) | Easy | ✘ |
-| Database | 196 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | ✘ |
-| Database | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature/) | Easy | ✘ |
 | Algorithms | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Easy | [✓](src/house-robber.js) |
 | Algorithms | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | ✘ |
 | Algorithms | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | ✘ |
@@ -267,7 +251,6 @@
 | Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) :blue_book: | Medium | ✘ |
 | Algorithms | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | ✘ |
 | Algorithms | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :blue_book: | Medium | ✘ |
-| Database | 262 | [Trips and Users](https://leetcode.com/problems/trips-and-users/) | Hard | ✘ |
 | Algorithms | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | ✘ |
 | Algorithms | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | ✘ |
 | Algorithms | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) :blue_book: | Hard | ✘ |
