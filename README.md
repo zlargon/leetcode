@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (54/79)
+* Easy (55/79)
 * Medium (5/163)
 * Hard (0/65)
 
@@ -214,7 +214,7 @@
 | Algorithms | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | Medium | ✘ |
 | Algorithms | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✘ |
 | Algorithms | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | ✘ |
-| Algorithms | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | Easy | ✘ |
+| Algorithms | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | Easy | [✓](src/rectangle-area.js) |
 | Algorithms | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Medium | ✘ |
 | Algorithms | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | ✘ |
 | Algorithms | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | ✘ |
