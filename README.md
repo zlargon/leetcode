@@ -1,8 +1,8 @@
 #LeetCode
 
-* Easy (51/79)
-* Medium (5/157)
-* Hard (0/64)
+* Easy (52/79)
+* Medium (5/163)
+* Hard (0/65)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -193,7 +193,7 @@
 | Algorithms | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | Medium | ✘ |
 | Algorithms | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [✓](src/happy-number.js) |
 | Algorithms | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [✓](src/remove-linked-list-elements.js) |
-| Algorithms | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Easy | ✘ |
+| Algorithms | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | Easy | [✓](src/count-primes.js) |
 | Algorithms | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [✓](src/isomorphic-strings.js) |
 | Algorithms | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [✓](src/reverse-linked-list.js) |
 | Algorithms | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | ✘ |
@@ -306,3 +306,10 @@
 | Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |
 | Algorithms | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | ✘ |
 | Algorithms | 317 | [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) :blue_book: | Hard | ✘ |
+| Algorithms | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | Medium | ✘ |
+| Algorithms | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | ✘ |
+| Algorithms | 320 | [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/) :blue_book: | Medium | ✘ |
+| Algorithms | 321 | [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) | Hard | ✘ |
+| Algorithms | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | ✘ |
+| Algorithms | 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) :blue_book: | Medium | ✘ |
+| Algorithms | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | Medium | ✘ |
