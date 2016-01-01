@@ -1,5 +1,7 @@
 #LeetCode
 
+[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
+
 * Easy (52/79)
 * Medium (5/163)
 * Hard (0/65)

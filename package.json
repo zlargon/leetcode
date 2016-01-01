@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./update_readme.js"
+    "test": "mocha --harmony src"
   },
   "author": "",
   "license": "ISC",

@@ -110,6 +110,7 @@ coroutine(function * () {
   }).join('\n');
 
   const markdown = `#LeetCode\n
+[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)\n
 ${difficultyStatistics}\n
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
