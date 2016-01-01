@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (53/79)
+* Easy (54/79)
 * Medium (5/163)
 * Hard (0/65)
 
@@ -210,7 +210,7 @@
 | Algorithms | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | ✘ |
 | Algorithms | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [✓](src/contains-duplicate.js) |
 | Algorithms | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | Hard | ✘ |
-| Algorithms | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✘ |
+| Algorithms | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | [✓](src/contains-duplicate-ii.js) |
 | Algorithms | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | Medium | ✘ |
 | Algorithms | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✘ |
 | Algorithms | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | ✘ |
