@@ -22,19 +22,29 @@ function mochaTest (file) {
   });
 }
 
-// Start
-Promise.all(Categories.map(category => {
-  return fetch(HOST + '/problemset/' + category.toLowerCase())
-    .then(res => res.text())
-    .then(html => {
+coroutine(function * () {
+
+  // 1. http request
+  const request = Categories.map(category => {
+    const url = HOST + '/problemset/' + category.toLowerCase();
+    return coroutine(function * () {
+      const res = yield fetch(url, { timeout: 10 * 1000 });
+
+      if (res.status !== 200) {
+        throw new Error(`request to ${url} failed, status code = ${res.status} (${res.statusText})`);
+      }
+
       return {
         category,
-        html
+        html: yield res.text()
       }
     });
-}))
-.then(result => {
-  return result.reduce((list, { category, html }) => {
+  });
+
+
+  // 2. response => problem list
+  const response = yield request;
+  const problemList = response.reduce((list, { category, html }) => {
     const $ = cheerio.load(html);
     $('#problemList tbody tr').each((index, tr) => {
       const td = $(tr).find('td');
@@ -47,53 +57,48 @@ Promise.all(Categories.map(category => {
       list[no] = { no, category, title, uri, lock, acceptance, difficulty };
     });
     return list;
-  }, []);
-})
-.then(problemList => {
-  return problemList.filter(problem => problem !== null);
-})
-.then(problemList => {
-  return coroutine(function * () {
-    let statistics = {};
-    for (let i = 0; i < problemList.length; i++) {
-      const { category, uri, difficulty } = problemList[i];
-      const name = uri.split('/')[2];
+  }, [])
+  .filter(problem => problem !== null); // filter the empty item from list
 
-      // state
-      let state = false;
-      try {
-        state = yield mochaTest(path.resolve(__dirname, 'src', name + '.js'));
-      } catch (e) {
-        // file is not exist
+
+  // 3. generate statistics
+  let statistics = {};
+  for (let i = 0; i < problemList.length; i++) {
+    const { category, uri, difficulty } = problemList[i];
+    const name = uri.split('/')[2];
+
+    // state
+    let state = false;
+    try {
+      state = yield mochaTest(path.resolve(__dirname, 'src', name + '.js'));
+    } catch (e) {
+      if (e.code !== 'MODULE_NOT_FOUND') {
+        throw e;
       }
-
-      // add name and state
-      Object.assign(problemList[i], {
-        name, state
-      });
-
-      // Difficulty Statistics
-      if (!statistics.hasOwnProperty(difficulty)) {
-        statistics[difficulty] = { total: 0, solve: 0 };
-      }
-      statistics[difficulty].total += 1;
-      statistics[difficulty].solve += state ? 1 : 0;
-
-      // Category Statistics
-      if (!statistics.hasOwnProperty(category)) {
-        statistics[category] = { total: 0, solve: 0 };
-      }
-      statistics[category].total += 1;
-      statistics[category].solve += state ? 1 : 0;
     }
 
-    return {
-      problemList,
-      statistics
-    };
-  });
-})
-.then(({ statistics, problemList }) => {
+    // add name and state
+    Object.assign(problemList[i], {
+      name, state
+    });
+
+    // Difficulty Statistics
+    if (!statistics.hasOwnProperty(difficulty)) {
+      statistics[difficulty] = { total: 0, solve: 0 };
+    }
+    statistics[difficulty].total += 1;
+    statistics[difficulty].solve += state ? 1 : 0;
+
+    // Category Statistics
+    if (!statistics.hasOwnProperty(category)) {
+      statistics[category] = { total: 0, solve: 0 };
+    }
+    statistics[category].total += 1;
+    statistics[category].solve += state ? 1 : 0;
+  }
+
+
+  // 4. generate markdown
   const difficultyStatistics = Difficulties.map(difficulty => {
     const { total, solve } = statistics[difficulty];
     return `* ${difficulty} (${solve}/${total})`;
@@ -104,13 +109,14 @@ Promise.all(Categories.map(category => {
     return `| ${category} | ${no} | [${title}](${HOST + uri})${lock ? ' :blue_book:' : ''} | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
   }).join('\n');
 
-  return `#LeetCode\n
+  const markdown = `#LeetCode\n
 ${difficultyStatistics}\n
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
 ${leetcodeTable}\n`;
-})
-.then(markdown => {
+
+
+  // 5. write file
   fs.writeFileSync(OUTPUT, markdown);
   console.log('Save to ' + OUTPUT);
 })
