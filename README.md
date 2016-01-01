@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (52/79)
+* Easy (53/79)
 * Medium (5/163)
 * Hard (0/65)
 
@@ -208,7 +208,7 @@
 | Algorithms | 214 | [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/) | Hard | ✘ |
 | Algorithms | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | ✘ |
 | Algorithms | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | ✘ |
-| Algorithms | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | ✘ |
+| Algorithms | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [✓](src/contains-duplicate.js) |
 | Algorithms | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | Hard | ✘ |
 | Algorithms | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Easy | ✘ |
 | Algorithms | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | Medium | ✘ |
