@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
 * Easy (58/79)
-* Medium (5/163)
+* Medium (6/163)
 * Hard (0/65)
 
 | Category | #     | Title | Difficulty | State |
@@ -85,7 +85,7 @@
 | Algorithms | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | ✘ |
 | Algorithms | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | ✘ |
 | Algorithms | 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | ✘ |
-| Algorithms | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | ✘ |
+| Algorithms | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [✓](src/subsets.js) |
 | Algorithms | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | ✘ |
 | Algorithms | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | Medium | ✘ |
 | Algorithms | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | Medium | ✘ |
