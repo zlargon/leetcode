@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
 * Easy (58/79)
-* Medium (6/163)
+* Medium (7/163)
 * Hard (0/65)
 
 | Category | #     | Title | Difficulty | State |
@@ -12,7 +12,7 @@
 | Algorithms | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [✓](src/add-two-numbers.js) |
 | Algorithms | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [✓](src/longest-substring-without-repeating-characters.js) |
 | Algorithms | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | ✘ |
-| Algorithms | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | ✘ |
+| Algorithms | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [✓](src/longest-palindromic-substring.js) |
 | Algorithms | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Easy | [✓](src/zigzag-conversion.js) |
 | Algorithms | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [✓](src/reverse-integer.js) |
 | Algorithms | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Easy | [✓](src/string-to-integer-atoi.js) |
