@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (58/79)
+* Easy (59/79)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -219,7 +219,7 @@
 | Algorithms | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [✓](src/implement-stack-using-queues.js) |
 | Algorithms | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [✓](src/invert-binary-tree.js) |
 | Algorithms | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | ✘ |
-| Algorithms | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | ✘ |
+| Algorithms | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [✓](src/summary-ranges.js) |
 | Algorithms | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | ✘ |
 | Algorithms | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | ✘ |
 | Algorithms | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | ✘ |
