@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (59/79)
+* Easy (60/79)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -222,7 +222,7 @@
 | Algorithms | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [✓](src/summary-ranges.js) |
 | Algorithms | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | ✘ |
 | Algorithms | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | ✘ |
-| Algorithms | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | ✘ |
+| Algorithms | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [✓](src/power-of-two.js) |
 | Algorithms | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [✓](src/implement-queue-using-stacks.js) |
 | Algorithms | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Medium | ✘ |
 | Algorithms | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | ✘ |
