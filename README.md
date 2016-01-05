@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (61/79)
-* Medium (7/164)
+* Easy (62/80)
+* Medium (7/163)
 * Hard (0/65)
 
 | Category | #     | Title | Difficulty | State |
@@ -226,7 +226,7 @@
 | Algorithms | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [✓](src/implement-queue-using-stacks.js) |
 | Algorithms | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Medium | ✘ |
 | Algorithms | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [✓](src/palindrome-linked-list.js) |
-| Algorithms | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | ✘ |
+| Algorithms | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | [✓](src/lowest-common-ancestor-of-a-binary-search-tree.js) |
 | Algorithms | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | ✘ |
 | Algorithms | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Easy | [✓](src/delete-node-in-a-linked-list.js) |
 | Algorithms | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | ✘ |
@@ -315,4 +315,4 @@
 | Algorithms | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | ✘ |
 | Algorithms | 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) :blue_book: | Medium | ✘ |
 | Algorithms | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | Medium | ✘ |
-| Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Medium | ✘ |
+| Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Easy | ✘ |
