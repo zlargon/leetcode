@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (62/80)
+* Easy (63/80)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -233,7 +233,7 @@
 | Algorithms | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | ✘ |
 | Algorithms | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | ✘ |
 | Algorithms | 241 | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) | Medium | ✘ |
-| Algorithms | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✘ |
+| Algorithms | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [✓](src/valid-anagram.js) |
 | Algorithms | 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) :blue_book: | Easy | ✘ |
 | Algorithms | 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) :blue_book: | Medium | ✘ |
