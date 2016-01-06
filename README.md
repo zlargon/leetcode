@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (64/80)
+* Easy (65/80)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -253,7 +253,7 @@
 | Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) :blue_book: | Medium | ✘ |
 | Algorithms | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | ✘ |
 | Algorithms | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :blue_book: | Medium | ✘ |
-| Algorithms | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | ✘ |
+| Algorithms | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | Easy | [✓](src/ugly-number.js) |
 | Algorithms | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | Medium | ✘ |
 | Algorithms | 265 | [Paint House II](https://leetcode.com/problems/paint-house-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) :blue_book: | Easy | ✘ |
