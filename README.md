@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (66/80)
+* Easy (67/80)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -273,7 +273,7 @@
 | Algorithms | 280 | [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/) :blue_book: | Medium | ✘ |
 | Algorithms | 281 | [Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/) :blue_book: | Medium | ✘ |
 | Algorithms | 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | Hard | ✘ |
-| Algorithms | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | ✘ |
+| Algorithms | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [✓](src/move-zeroes.js) |
 | Algorithms | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | Medium | ✘ |
 | Algorithms | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) :blue_book: | Medium | ✘ |
 | Algorithms | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) :blue_book: | Medium | ✘ |
