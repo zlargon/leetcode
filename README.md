@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (63/80)
+* Easy (64/80)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -249,7 +249,7 @@
 | Algorithms | 255 | [Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/) :blue_book: | Medium | ✘ |
 | Algorithms | 256 | [Paint House](https://leetcode.com/problems/paint-house/) :blue_book: | Medium | ✘ |
 | Algorithms | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | Easy | [✓](src/binary-tree-paths.js) |
-| Algorithms | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | ✘ |
+| Algorithms | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [✓](src/add-digits.js) |
 | Algorithms | 259 | [3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) :blue_book: | Medium | ✘ |
 | Algorithms | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | Medium | ✘ |
 | Algorithms | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) :blue_book: | Medium | ✘ |
