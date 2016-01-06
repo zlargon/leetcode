@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (67/80)
+* Easy (68/80)
 * Medium (7/163)
 * Hard (0/65)
 
@@ -280,7 +280,7 @@
 | Algorithms | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Hard | ✘ |
 | Algorithms | 288 | [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/) :blue_book: | Easy | ✘ |
 | Algorithms | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | Medium | ✘ |
-| Algorithms | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | ✘ |
+| Algorithms | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | Easy | [✓](src/word-pattern.js) |
 | Algorithms | 291 | [Word Pattern II](https://leetcode.com/problems/word-pattern-ii/) :blue_book: | Hard | ✘ |
 | Algorithms | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | Easy | [✓](src/nim-game.js) |
 | Algorithms | 293 | [Flip Game](https://leetcode.com/problems/flip-game/) :blue_book: | Easy | ✘ |
