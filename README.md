@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
 * Easy (68/81)
-* Medium (9/163)
+* Medium (10/163)
 * Hard (0/65)
 
 | Category | #     | Title | Difficulty | State |
@@ -23,7 +23,7 @@
 | Algorithms | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | Easy | [✓](src/roman-to-integer.js) |
 | Algorithms | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [✓](src/longest-common-prefix.js) |
 | Algorithms | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [✓](src/3sum.js) |
-| Algorithms | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | ✘ |
+| Algorithms | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [✓](src/3sum-closest.js) |
 | Algorithms | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | ✘ |
 | Algorithms | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | ✘ |
 | Algorithms | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Easy | [✓](src/remove-nth-node-from-end-of-list.js) |
