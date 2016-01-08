@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (68/81)
+* Easy (69/81)
 * Medium (10/163)
 * Hard (0/65)
 
@@ -316,4 +316,4 @@
 | Algorithms | 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) :blue_book: | Medium | ✘ |
 | Algorithms | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | Medium | ✘ |
 | Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Easy | ✘ |
-| Algorithms | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | ✘ |
+| Algorithms | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | [✓](src/power-of-three.js) |
