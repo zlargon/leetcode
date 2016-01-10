@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
 * Easy (69/81)
-* Medium (10/163)
-* Hard (0/65)
+* Medium (11/163)
+* Hard (0/66)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -24,7 +24,7 @@
 | Algorithms | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [✓](src/longest-common-prefix.js) |
 | Algorithms | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Medium | [✓](src/3sum.js) |
 | Algorithms | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [✓](src/3sum-closest.js) |
-| Algorithms | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | ✘ |
+| Algorithms | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | [✓](src/letter-combinations-of-a-phone-number.js) |
 | Algorithms | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Medium | ✘ |
 | Algorithms | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Easy | [✓](src/remove-nth-node-from-end-of-list.js) |
 | Algorithms | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [✓](src/valid-parentheses.js) |
@@ -317,3 +317,4 @@
 | Algorithms | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | Medium | ✘ |
 | Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Easy | ✘ |
 | Algorithms | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | [✓](src/power-of-three.js) |
+| Algorithms | 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | ✘ |
