@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
 * Easy (69/81)
-* Medium (12/163)
+* Medium (13/163)
 * Hard (0/66)
 
 | Category | #     | Title | Difficulty | State |
@@ -31,7 +31,7 @@
 | Algorithms | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [✓](src/merge-two-sorted-lists.js) |
 | Algorithms | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [✓](src/generate-parentheses.js) |
 | Algorithms | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | ✘ |
-| Algorithms | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | ✘ |
+| Algorithms | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [✓](src/swap-nodes-in-pairs.js) |
 | Algorithms | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | ✘ |
 | Algorithms | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [✓](src/remove-duplicates-from-sorted-array.js) |
 | Algorithms | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [✓](src/remove-element.js) |
