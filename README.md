@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (69/81)
-* Medium (13/163)
+* Easy (70/82)
+* Medium (13/167)
 * Hard (0/66)
 
 | Category | #     | Title | Difficulty | State |
@@ -318,3 +318,8 @@
 | Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Easy | ✘ |
 | Algorithms | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | [✓](src/power-of-three.js) |
 | Algorithms | 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | ✘ |
+| Algorithms | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Easy | [✓](src/odd-even-linked-list.js) |
+| Algorithms | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Medium | ✘ |
+| Algorithms | 330 | [Patching Array](https://leetcode.com/problems/patching-array/) | Medium | ✘ |
+| Algorithms | 331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | Medium | ✘ |
+| Algorithms | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | Medium | ✘ |
