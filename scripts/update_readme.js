@@ -1,4 +1,3 @@
-#!/usr/bin/env babel-node
 import fs        from 'fs';
 import path      from 'path';
 import fetch     from 'node-fetch';
@@ -7,7 +6,7 @@ import coroutine from 'co';
 import Mocha     from 'mocha';
 
 const HOST = 'https://leetcode.com';
-const OUTPUT = path.resolve(__dirname, 'README.md');
+const OUTPUT = path.resolve(__dirname, '../README.md');
 
 const Categories = ['Algorithms']; // Database, Shell
 const Difficulties = ['Easy', 'Medium', 'Hard'];
@@ -70,7 +69,7 @@ coroutine(function * () {
     // state
     let state = false;
     try {
-      state = yield mochaTest(path.resolve(__dirname, 'src', name + '.js'));
+      state = yield mochaTest(path.resolve(__dirname, '../src', name + '.js'));
     } catch (e) {
       if (e.code !== 'MODULE_NOT_FOUND') {
         throw e;

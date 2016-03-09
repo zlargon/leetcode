@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony src"
+    "test": "mocha --harmony src",
+    "update:readme": "babel-node scripts/update_readme.js"
   },
   "author": "",
   "license": "ISC",
