@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 
-* Easy (70/82)
-* Medium (13/167)
-* Hard (0/66)
+* Easy (70/84)
+* Medium (13/165)
+* Hard (0/75)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
-| Algorithms | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Medium | [✓](src/two-sum.js) |
+| Algorithms | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [✓](src/two-sum.js) |
 | Algorithms | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [✓](src/add-two-numbers.js) |
 | Algorithms | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [✓](src/longest-substring-without-repeating-characters.js) |
 | Algorithms | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | ✘ |
@@ -31,7 +31,7 @@
 | Algorithms | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [✓](src/merge-two-sorted-lists.js) |
 | Algorithms | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [✓](src/generate-parentheses.js) |
 | Algorithms | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | ✘ |
-| Algorithms | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [✓](src/swap-nodes-in-pairs.js) |
+| Algorithms | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Easy | [✓](src/swap-nodes-in-pairs.js) |
 | Algorithms | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | ✘ |
 | Algorithms | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [✓](src/remove-duplicates-from-sorted-array.js) |
 | Algorithms | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [✓](src/remove-element.js) |
@@ -128,7 +128,7 @@
 | Algorithms | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [✓](src/pascals-triangle.js) |
 | Algorithms | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [✓](src/pascals-triangle-ii.js) |
 | Algorithms | 120 | [Triangle](https://leetcode.com/problems/triangle/) | Medium | ✘ |
-| Algorithms | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Medium | ✘ |
+| Algorithms | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | ✘ |
 | Algorithms | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | ✘ |
 | Algorithms | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | ✘ |
 | Algorithms | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | ✘ |
@@ -215,16 +215,16 @@
 | Algorithms | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | Medium | ✘ |
 | Algorithms | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | Medium | ✘ |
 | Algorithms | 223 | [Rectangle Area](https://leetcode.com/problems/rectangle-area/) | Easy | [✓](src/rectangle-area.js) |
-| Algorithms | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Medium | ✘ |
+| Algorithms | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Hard | ✘ |
 | Algorithms | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [✓](src/implement-stack-using-queues.js) |
 | Algorithms | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [✓](src/invert-binary-tree.js) |
 | Algorithms | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | ✘ |
-| Algorithms | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [✓](src/summary-ranges.js) |
+| Algorithms | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Medium | [✓](src/summary-ranges.js) |
 | Algorithms | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | Medium | ✘ |
 | Algorithms | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | ✘ |
 | Algorithms | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | [✓](src/power-of-two.js) |
 | Algorithms | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [✓](src/implement-queue-using-stacks.js) |
-| Algorithms | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Medium | ✘ |
+| Algorithms | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | Hard | ✘ |
 | Algorithms | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [✓](src/palindrome-linked-list.js) |
 | Algorithms | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | [✓](src/lowest-common-ancestor-of-a-binary-search-tree.js) |
 | Algorithms | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | ✘ |
@@ -263,7 +263,7 @@
 | Algorithms | 270 | [Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/) :blue_book: | Easy | ✘ |
 | Algorithms | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) :blue_book: | Medium | ✘ |
 | Algorithms | 272 | [Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/) :blue_book: | Hard | ✘ |
-| Algorithms | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Medium | ✘ |
+| Algorithms | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | Hard | ✘ |
 | Algorithms | 274 | [H-Index](https://leetcode.com/problems/h-index/) | Medium | ✘ |
 | Algorithms | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | ✘ |
 | Algorithms | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) :blue_book: | Easy | ✘ |
@@ -287,7 +287,7 @@
 | Algorithms | 294 | [Flip Game II](https://leetcode.com/problems/flip-game-ii/) :blue_book: | Medium | ✘ |
 | Algorithms | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | Hard | ✘ |
 | Algorithms | 296 | [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/) :blue_book: | Hard | ✘ |
-| Algorithms | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Medium | ✘ |
+| Algorithms | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | ✘ |
 | Algorithms | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) :blue_book: | Medium | ✘ |
 | Algorithms | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | Easy | [✓](src/bulls-and-cows.js) |
 | Algorithms | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | ✘ |
@@ -306,7 +306,7 @@
 | Algorithms | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | Medium | ✘ |
 | Algorithms | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) :blue_book: | Medium | ✘ |
 | Algorithms | 315 | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | Hard | ✘ |
-| Algorithms | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | ✘ |
+| Algorithms | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | Hard | ✘ |
 | Algorithms | 317 | [Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/) :blue_book: | Hard | ✘ |
 | Algorithms | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | Medium | ✘ |
 | Algorithms | 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | ✘ |
@@ -318,8 +318,17 @@
 | Algorithms | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :blue_book: | Easy | ✘ |
 | Algorithms | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | Easy | [✓](src/power-of-three.js) |
 | Algorithms | 327 | [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | Hard | ✘ |
-| Algorithms | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Easy | [✓](src/odd-even-linked-list.js) |
-| Algorithms | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Medium | ✘ |
+| Algorithms | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [✓](src/odd-even-linked-list.js) |
+| Algorithms | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | ✘ |
 | Algorithms | 330 | [Patching Array](https://leetcode.com/problems/patching-array/) | Medium | ✘ |
 | Algorithms | 331 | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) | Medium | ✘ |
 | Algorithms | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | Medium | ✘ |
+| Algorithms | 333 | [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/) :blue_book: | Medium | ✘ |
+| Algorithms | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | Medium | ✘ |
+| Algorithms | 335 | [Self Crossing](https://leetcode.com/problems/self-crossing/) | Hard | ✘ |
+| Algorithms | 336 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | Hard | ✘ |
+| Algorithms | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | Medium | ✘ |
+| Algorithms | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | ✘ |
+| Algorithms | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) :blue_book: | Easy | ✘ |
+| Algorithms | 340 | [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) :blue_book: | Hard | ✘ |
+| Algorithms | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) :blue_book: | Medium | ✘ |
