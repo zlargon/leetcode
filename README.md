@@ -1,6 +1,7 @@
 #LeetCode
 
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
+[![Dependency Status](https://david-dm.org/zlargon/leetcode.svg)](https://david-dm.org/zlargon/leetcode)
 
 * Easy (70/84)
 * Medium (13/165)

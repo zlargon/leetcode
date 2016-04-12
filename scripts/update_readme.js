@@ -119,6 +119,7 @@ coroutine(function * () {
     '#LeetCode',
     '',
     '[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)',
+    '[![Dependency Status](https://david-dm.org/zlargon/leetcode.svg)](https://david-dm.org/zlargon/leetcode)',
     '',
     difficultyStatistics,
     '',

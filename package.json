@@ -8,7 +8,7 @@
   },
   "author": "zlargon <zlargon@icloud.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "chai": "^3.5.0",
     "cheerio": "^0.20.0",
     "co": "^4.6.0",
