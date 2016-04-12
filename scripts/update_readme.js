@@ -1,9 +1,12 @@
-import fs        from 'fs';
-import path      from 'path';
-import fetch     from 'node-fetch';
-import cheerio   from 'cheerio';
-import coroutine from 'co';
-import Mocha     from 'mocha';
+#!/usr/bin/env node
+'use strict';
+
+const fs        = require('fs');
+const path      = require('path');
+const fetch     = require('node-fetch');
+const cheerio   = require('cheerio');
+const coroutine = require('co');
+const Mocha     = require('mocha');
 
 const HOST = 'https://leetcode.com';
 const OUTPUT = path.resolve(__dirname, '../README.md');
@@ -24,27 +27,22 @@ function mochaTest (file) {
 coroutine(function * () {
 
   // 1. http request
-  const request = Categories.map(category => {
+  const response = [];
+  for (let i = 0; i < Categories.length; i++) {
+    const category = Categories[i];
     const url = HOST + '/problemset/' + category.toLowerCase();
-    return coroutine(function * () {
-      const res = yield fetch(url, { timeout: 10 * 1000 });
-
+    const data = yield fetch(url, { timeout: 10 * 1000 }).then(res => {
       if (res.status !== 200) {
         throw new Error(`request to ${url} failed, status code = ${res.status} (${res.statusText})`);
       }
-
-      return {
-        category,
-        html: yield res.text()
-      }
+      return res.text().then(html => new Object({ category, html }));
     });
-  });
-
+    response.push(data);
+  }
 
   // 2. response => problem list
-  const response = yield request;
-  const problemList = response.reduce((list, { category, html }) => {
-    const $ = cheerio.load(html);
+  const problemList = response.reduce((list, data) => {
+    const $ = cheerio.load(data.html);
     $('#problemList tbody tr').each((index, tr) => {
       const td = $(tr).find('td');
       const no         = Number.parseInt(td.eq(1).text().trim(), 10);
@@ -52,8 +50,8 @@ coroutine(function * () {
       const uri        = td.eq(2).find('a').attr('href').trim();
       const lock       = td.eq(2).find('i').attr('class') ? true : false;
       const acceptance = td.eq(3).text().trim();
-      const difficulty = td.eq(4).text().trim();
-      list[no] = { no, category, title, uri, lock, acceptance, difficulty };
+      const difficulty = td.eq(5).text().trim();
+      list[no] = { no, category: data.category, title, uri, lock, acceptance, difficulty };
     });
     return list;
   }, [])
@@ -63,8 +61,9 @@ coroutine(function * () {
   // 3. generate statistics
   let statistics = {};
   for (let i = 0; i < problemList.length; i++) {
-    const { category, uri, difficulty } = problemList[i];
-    const name = uri.split('/')[2];
+    const name       = problemList[i].uri.split('/')[2];
+    const category   = problemList[i].category;
+    const difficulty = problemList[i].difficulty;
 
     // state
     let state = false;
@@ -96,25 +95,38 @@ coroutine(function * () {
     statistics[category].solve += state ? 1 : 0;
   }
 
-
   // 4. generate markdown
   const difficultyStatistics = Difficulties.map(difficulty => {
-    const { total, solve } = statistics[difficulty];
+    const total = statistics[difficulty].total;
+    const solve = statistics[difficulty].solve;
+
     return `* ${difficulty} (${solve}/${total})`;
   }).join('\n');
 
-  const leetcodeTable = problemList.map(problem => {
-    const { category, no, name, title, uri, lock, difficulty, state } = problem;
-    return `| ${category} | ${no} | [${title}](${HOST + uri})${lock ? ' :blue_book:' : ''} | ${difficulty} | ${state ? `[✓](src/${name}.js)` : '✘'} |`;
+  const leetcodeTable = problemList.map(p => {
+    return [
+      '',
+      p.category,
+      p.no,
+      `[${p.title}](${HOST + p.uri})${p.lock ? ' :blue_book:' : ''}`,
+      p.difficulty,
+      p.state ? `[✓](src/${p.name}.js)` : '✘',
+      ''
+    ].join(' | ').trim();
   }).join('\n');
 
-  const markdown = `#LeetCode\n
-[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)\n
-${difficultyStatistics}\n
-| Category | #     | Title | Difficulty | State |
-| :---     | :---: | :---  | :---       | :---: |
-${leetcodeTable}\n`;
-
+  const markdown = [
+    '#LeetCode',
+    '',
+    '[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)',
+    '',
+    difficultyStatistics,
+    '',
+    '| Category | #     | Title | Difficulty | State |',
+    '| :---     | :---: | :---  | :---       | :---: |',
+    leetcodeTable,
+    ''
+  ].join('\n');
 
   // 5. write file
   fs.writeFileSync(OUTPUT, markdown);
