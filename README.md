@@ -1,7 +1,7 @@
 #LeetCode
 
-[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
-[![Dependency Status](https://david-dm.org/zlargon/leetcode.svg)](https://david-dm.org/zlargon/leetcode)
+[![][dependency-img]][dependency-url]
+[![][travis-img]][travis-url]
 
 * Easy (70/89)
 * Medium (13/166)
@@ -339,3 +339,9 @@
 | Algorithms | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | ✘ |
 | Algorithms | 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) :blue_book: | Easy | ✘ |
 | Algorithms | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ✘ |
+
+[dependency-url]: https://david-dm.org/zlargon/leetcode
+[dependency-img]: https://img.shields.io/david/zlargon/leetcode.svg
+
+[travis-url]: https://travis-ci.org/zlargon/leetcode
+[travis-img]: https://img.shields.io/travis/zlargon/leetcode/master.svg

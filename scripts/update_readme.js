@@ -118,14 +118,20 @@ coroutine(function * () {
   const markdown = [
     '#LeetCode',
     '',
-    '[![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)',
-    '[![Dependency Status](https://david-dm.org/zlargon/leetcode.svg)](https://david-dm.org/zlargon/leetcode)',
+    '[![][dependency-img]][dependency-url]',
+    '[![][travis-img]][travis-url]',
     '',
     difficultyStatistics,
     '',
     '| Category | #     | Title | Difficulty | State |',
     '| :---     | :---: | :---  | :---       | :---: |',
     leetcodeTable,
+    '',
+    '[dependency-url]: https://david-dm.org/zlargon/leetcode',
+    '[dependency-img]: https://img.shields.io/david/zlargon/leetcode.svg',
+    '',
+    '[travis-url]: https://travis-ci.org/zlargon/leetcode',
+    '[travis-img]: https://img.shields.io/travis/zlargon/leetcode/master.svg',
     ''
   ].join('\n');
 
