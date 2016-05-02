@@ -50,7 +50,7 @@ coroutine(function * () {
       const uri        = td.eq(2).find('a').attr('href').trim();
       const lock       = td.eq(2).find('i').attr('class') ? true : false;
       const acceptance = td.eq(3).text().trim();
-      const difficulty = td.eq(5).text().trim();
+      const difficulty = td.eq(6).text().trim();
       list[no] = { no, category: data.category, title, uri, lock, acceptance, difficulty };
     });
     return list;

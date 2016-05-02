@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/zlargon/leetcode.svg)](https://travis-ci.org/zlargon/leetcode)
 [![Dependency Status](https://david-dm.org/zlargon/leetcode.svg)](https://david-dm.org/zlargon/leetcode)
 
-* Easy (70/84)
-* Medium (13/165)
+* Easy (70/89)
+* Medium (13/166)
 * Hard (0/75)
 
 | Category | #     | Title | Difficulty | State |
@@ -149,7 +149,7 @@
 | Algorithms | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Hard | ✘ |
 | Algorithms | 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | ✘ |
 | Algorithms | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | ✘ |
-| Algorithms | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Medium | ✘ |
+| Algorithms | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | ✘ |
 | Algorithms | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | ✘ |
 | Algorithms | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | ✘ |
 | Algorithms | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Medium | ✘ |
@@ -332,4 +332,10 @@
 | Algorithms | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | ✘ |
 | Algorithms | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) :blue_book: | Easy | ✘ |
 | Algorithms | 340 | [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) :blue_book: | Hard | ✘ |
-| Algorithms | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) :blue_book: | Medium | ✘ |
+| Algorithms | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | Medium | ✘ |
+| Algorithms | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | Easy | ✘ |
+| Algorithms | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | Medium | ✘ |
+| Algorithms | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | ✘ |
+| Algorithms | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Easy | ✘ |
+| Algorithms | 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) :blue_book: | Easy | ✘ |
+| Algorithms | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ✘ |
