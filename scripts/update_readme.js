@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 'use strict';
 
-const fs        = require('fs');
-const path      = require('path');
-const fetch     = require('node-fetch');
-const cheerio   = require('cheerio');
-const coroutine = require('co');
-const Mocha     = require('mocha');
+const fs = require('fs');
+const path = require('path');
+const co = require('co');
+const fetch = require('node-fetch');
+const Mocha = require('mocha');
 
 const HOST = 'https://leetcode.com';
 const OUTPUT = path.resolve(__dirname, '../README.md');
@@ -24,104 +23,80 @@ function mochaTest (file) {
   });
 }
 
-coroutine(function * () {
+co(function * () {
 
   // 1. http request
-  const response = [];
+  const problemList = [];
   for (let i = 0; i < Categories.length; i++) {
     const category = Categories[i];
-    const url = HOST + '/problemset/' + category.toLowerCase();
+    const url = HOST + '/api/problems/' + category.toLowerCase();
     const data = yield fetch(url, { timeout: 10 * 1000 }).then(res => {
       if (res.status !== 200) {
         throw new Error(`request to ${url} failed, status code = ${res.status} (${res.statusText})`);
       }
-      return res.text().then(html => new Object({ category, html }));
+      return res.json().then(json => {
+        json.stat_status_pairs.forEach(x => {
+          problemList.unshift({
+            id: x.stat.question_id,
+            category,
+            title: x.stat.question__title,
+            name: x.stat.question__title_slug,
+            url: HOST + '/problems/' + x.stat.question__title_slug + '/',
+            lock: x.paid_only,
+            difficulty: x.difficulty.level - 1
+          });
+        });
+      });
     });
-    response.push(data);
   }
 
-  // 2. response => problem list
-  const problemList = response.reduce((list, data) => {
-    const $ = cheerio.load(data.html);
-    $('#problemList tbody tr').each((index, tr) => {
-      const td = $(tr).find('td');
-      const no         = Number.parseInt(td.eq(1).text().trim(), 10);
-      const title      = td.eq(2).find('a').text().trim();
-      const uri        = td.eq(2).find('a').attr('href').trim();
-      const lock       = td.eq(2).find('i').attr('class') ? true : false;
-      const acceptance = td.eq(3).text().trim();
-      const difficulty = td.eq(6).text().trim();
-      list[no] = { no, category: data.category, title, uri, lock, acceptance, difficulty };
-    });
-    return list;
-  }, [])
-  .filter(problem => problem !== null); // filter the empty item from list
-
-
   // 3. generate statistics
-  let statistics = {};
-  for (let i = 0; i < problemList.length; i++) {
-    const name       = problemList[i].uri.split('/')[2];
-    const category   = problemList[i].category;
-    const difficulty = problemList[i].difficulty;
+  const diff_total = [0, 0, 0];
+  const diff_solve = [0, 0, 0];
 
-    // state
-    let state = false;
+  for (let i = 0; i < problemList.length; i++) {
+    const p = problemList[i];
+    p.state = false;
+
     try {
-      state = yield mochaTest(path.resolve(__dirname, '../src', name + '.js'));
+      p.state = yield mochaTest(path.resolve(__dirname, '../src', p.name + '.js'));
     } catch (e) {
       if (e.code !== 'MODULE_NOT_FOUND') {
         throw e;
       }
     }
 
-    // add name and state
-    Object.assign(problemList[i], {
-      name, state
-    });
-
-    // Difficulty Statistics
-    if (!statistics.hasOwnProperty(difficulty)) {
-      statistics[difficulty] = { total: 0, solve: 0 };
+    // statistics
+    diff_total[p.difficulty] += 1;
+    if (p.state) {
+      diff_solve[p.difficulty] += 1;
     }
-    statistics[difficulty].total += 1;
-    statistics[difficulty].solve += state ? 1 : 0;
-
-    // Category Statistics
-    if (!statistics.hasOwnProperty(category)) {
-      statistics[category] = { total: 0, solve: 0 };
-    }
-    statistics[category].total += 1;
-    statistics[category].solve += state ? 1 : 0;
   }
 
   // 4. generate markdown
-  const difficultyStatistics = Difficulties.map(difficulty => {
-    const total = statistics[difficulty].total;
-    const solve = statistics[difficulty].solve;
-
-    return `* ${difficulty} (${solve}/${total})`;
+  const statistics = Difficulties.map((diff, i) => {
+    return `* ${diff} (${diff_solve[i]}/${diff_total[i]})`;
   }).join('\n');
 
   const leetcodeTable = problemList.map(p => {
     return [
       '',
       p.category,
-      p.no,
-      `[${p.title}](${HOST + p.uri})${p.lock ? ' :blue_book:' : ''}`,
-      p.difficulty,
+      p.id,
+      `[${p.title}](${p.url})${p.lock ? ' :blue_book:' : ''}`,
+      Difficulties[p.difficulty],
       p.state ? `[✓](src/${p.name}.js)` : '✘',
       ''
     ].join(' | ').trim();
   }).join('\n');
 
   const markdown = [
-    '#LeetCode',
+    '# LeetCode',
     '',
     '[![][dependency-img]][dependency-url]',
     '[![][travis-img]][travis-url]',
     '',
-    difficultyStatistics,
+    statistics,
     '',
     '| Category | #     | Title | Difficulty | State |',
     '| :---     | :---: | :---  | :---       | :---: |',
