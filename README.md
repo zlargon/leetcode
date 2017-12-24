@@ -3,9 +3,9 @@
 [![][dependency-img]][dependency-url]
 [![][travis-img]][travis-url]
 
-* Easy (61/159)
-* Medium (22/315)
-* Hard (0/119)
+* Easy (61/182)
+* Medium (22/347)
+* Hard (0/139)
 
 | Category | #     | Title | Difficulty | State |
 | :---     | :---: | :---  | :---       | :---: |
@@ -427,6 +427,7 @@
 | Algorithms | 440 | [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) | Hard | ✘ |
 | Algorithms | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | Easy | ✘ |
 | Algorithms | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Medium | ✘ |
+| Algorithms | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | Easy | ✘ |
 | Algorithms | 444 | [Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction/) :blue_book: | Medium | ✘ |
 | Algorithms | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | Medium | ✘ |
 | Algorithms | 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | Hard | ✘ |
@@ -461,7 +462,7 @@
 | Algorithms | 479 | [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/) | Easy | ✘ |
 | Algorithms | 480 | [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) | Hard | ✘ |
 | Algorithms | 481 | [Magical String](https://leetcode.com/problems/magical-string/) | Medium | ✘ |
-| Algorithms | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | Medium | ✘ |
+| Algorithms | 482 | [License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | Easy | ✘ |
 | Algorithms | 483 | [Smallest Good Base](https://leetcode.com/problems/smallest-good-base/) | Hard | ✘ |
 | Algorithms | 484 | [Find Permutation](https://leetcode.com/problems/find-permutation/) :blue_book: | Medium | ✘ |
 | Algorithms | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | ✘ |
@@ -602,6 +603,80 @@
 | Algorithms | 666 | [Path Sum IV](https://leetcode.com/problems/path-sum-iv/) :blue_book: | Medium | ✘ |
 | Algorithms | 667 | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/) | Medium | ✘ |
 | Algorithms | 668 | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | Hard | ✘ |
+| Algorithms | 669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Easy | ✘ |
+| Algorithms | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | Medium | ✘ |
+| Algorithms | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | Easy | ✘ |
+| Algorithms | 672 | [Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii/) | Medium | ✘ |
+| Algorithms | 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | Medium | ✘ |
+| Algorithms | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | Easy | ✘ |
+| Algorithms | 675 | [Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | Hard | ✘ |
+| Algorithms | 676 | [Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) | Medium | ✘ |
+| Algorithms | 677 | [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | Medium | ✘ |
+| Algorithms | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | ✘ |
+| Algorithms | 679 | [24 Game](https://leetcode.com/problems/24-game/) | Hard | ✘ |
+| Algorithms | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | ✘ |
+| Algorithms | 681 | [Next Closest Time](https://leetcode.com/problems/next-closest-time/) :blue_book: | Medium | ✘ |
+| Algorithms | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | Easy | ✘ |
+| Algorithms | 683 | [K Empty Slots](https://leetcode.com/problems/k-empty-slots/) :blue_book: | Hard | ✘ |
+| Algorithms | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | ✘ |
+| Algorithms | 685 | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/) | Hard | ✘ |
+| Algorithms | 686 | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/) | Easy | ✘ |
+| Algorithms | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | Easy | ✘ |
+| Algorithms | 688 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | Medium | ✘ |
+| Algorithms | 689 | [Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) | Hard | ✘ |
+| Algorithms | 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | Easy | ✘ |
+| Algorithms | 691 | [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/) | Hard | ✘ |
+| Algorithms | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | ✘ |
+| Algorithms | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | Easy | ✘ |
+| Algorithms | 694 | [Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/) :blue_book: | Medium | ✘ |
+| Algorithms | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Easy | ✘ |
+| Algorithms | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | Easy | ✘ |
+| Algorithms | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | Easy | ✘ |
+| Algorithms | 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | Medium | ✘ |
+| Algorithms | 699 | [Falling Squares](https://leetcode.com/problems/falling-squares/) | Hard | ✘ |
+| Algorithms | 711 | [Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii/) :blue_book: | Hard | ✘ |
+| Algorithms | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | Medium | ✘ |
+| Algorithms | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | Medium | ✘ |
+| Algorithms | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium | ✘ |
+| Algorithms | 715 | [Range Module](https://leetcode.com/problems/range-module/) | Hard | ✘ |
+| Algorithms | 716 | [Max Stack](https://leetcode.com/problems/max-stack/) :blue_book: | Hard | ✘ |
+| Algorithms | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | ✘ |
+| Algorithms | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | ✘ |
+| Algorithms | 719 | [Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) | Hard | ✘ |
+| Algorithms | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | Easy | ✘ |
+| Algorithms | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | Medium | ✘ |
+| Algorithms | 722 | [Remove Comments](https://leetcode.com/problems/remove-comments/) | Medium | ✘ |
+| Algorithms | 723 | [Candy Crush](https://leetcode.com/problems/candy-crush/) :blue_book: | Medium | ✘ |
+| Algorithms | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Easy | ✘ |
+| Algorithms | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | ✘ |
+| Algorithms | 726 | [Number of Atoms](https://leetcode.com/problems/number-of-atoms/) | Hard | ✘ |
+| Algorithms | 727 | [Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/) :blue_book: | Hard | ✘ |
+| Algorithms | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | ✘ |
+| Algorithms | 729 | [My Calendar I](https://leetcode.com/problems/my-calendar-i/) | Medium | ✘ |
+| Algorithms | 730 | [Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/) | Hard | ✘ |
+| Algorithms | 731 | [My Calendar II](https://leetcode.com/problems/my-calendar-ii/) | Medium | ✘ |
+| Algorithms | 732 | [My Calendar III](https://leetcode.com/problems/my-calendar-iii/) | Hard | ✘ |
+| Algorithms | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | ✘ |
+| Algorithms | 734 | [Sentence Similarity](https://leetcode.com/problems/sentence-similarity/) :blue_book: | Easy | ✘ |
+| Algorithms | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | Medium | ✘ |
+| Algorithms | 736 | [Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/) | Hard | ✘ |
+| Algorithms | 737 | [Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/) :blue_book: | Medium | ✘ |
+| Algorithms | 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | Medium | ✘ |
+| Algorithms | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | ✘ |
+| Algorithms | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | ✘ |
+| Algorithms | 741 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | Hard | ✘ |
+| Algorithms | 743 | [Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree/) :blue_book: | Medium | ✘ |
+| Algorithms | 744 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | ✘ |
+| Algorithms | 745 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | ✘ |
+| Algorithms | 746 | [Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/) | Hard | ✘ |
+| Algorithms | 747 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | ✘ |
+| Algorithms | 748 | [Largest Number Greater Than Twice of Others](https://leetcode.com/problems/largest-number-greater-than-twice-of-others/) | Easy | ✘ |
+| Algorithms | 749 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | Medium | ✘ |
+| Algorithms | 750 | [Contain Virus](https://leetcode.com/problems/contain-virus/) | Hard | ✘ |
+| Algorithms | 751 | [Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/) :blue_book: | Medium | ✘ |
+| Algorithms | 752 | [IP to CIDR](https://leetcode.com/problems/ip-to-cidr/) | Medium | ✘ |
+| Algorithms | 753 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | Medium | ✘ |
+| Algorithms | 754 | [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/) | Hard | ✘ |
 
 [dependency-url]: https://david-dm.org/zlargon/leetcode
 [dependency-img]: https://img.shields.io/david/zlargon/leetcode.svg

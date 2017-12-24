@@ -9,10 +9,10 @@
   "author": "zlargon <zlargon@icloud.com>",
   "license": "MIT",
   "dependencies": {
-    "chai": "^4.1.1",
+    "chai": "4.1.2",
     "co": "^4.6.0",
     "deep-freeze": "^0.0.1",
-    "mocha": "^3.5.0",
-    "node-fetch": "^1.7.2"
+    "mocha": "4.0.1",
+    "node-fetch": "1.7.3"
   }
 }
